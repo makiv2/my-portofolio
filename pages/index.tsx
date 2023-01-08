@@ -58,9 +58,15 @@ export default function Home() {
             className="bar bg-cyan-700"
           ></m.div>
         </div>
-        <div className="absolute bottom-0 left-0 pl-14 pr-24  bottom10 topthird w-1/2">
+        <m.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.65, ease: "easeOut" }}
+          exit={{ opacity: 0 }}
+          className="absolute bottom-0 left-0 pl-14 pr-24  bottom10 topthird w-1/2"
+        >
           <Glasscard></Glasscard>
-        </div>
+        </m.div>
       </main>
     </m.div>
   );
