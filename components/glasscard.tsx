@@ -1,6 +1,9 @@
+import Tilt from "react-parallax-tilt";
+
+
 function glasscard() {
   return (
-    <>
+    <Tilt>
       <div className="card">
         <div className="content">
           <h2 className="h2content">01</h2>
@@ -13,7 +16,7 @@ function glasscard() {
           </p>
         </div>
       </div>
-    </>
+    </Tilt>
   );
 }
 

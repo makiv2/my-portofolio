@@ -22,6 +22,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-parallax-tilt": "^1.7.84",
     "react-spring": "^9.6.1",
     "react-with-gesture": "^4.0.8",
     "typescript": "4.9.4"

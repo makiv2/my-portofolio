@@ -41,7 +41,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="mt-40 overflow-hidden absolute">
+        <div className="mt-36 overflow-hidden absolute">
           <m.h1
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
@@ -58,7 +58,7 @@ export default function Home() {
             className="bar bg-cyan-700"
           ></m.div>
         </div>
-        <div className="absolute right-32 top-80 size w-1/2 h-1/2">
+        <div className="absolute bottom-0 left-0 pl-14 pr-24  bottom10 topthird w-1/2">
           <Glasscard></Glasscard>
         </div>
       </main>
