@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import Socials from "../components/socials";
 import Footer from "../components/footer";
 import { motion as m } from "framer-motion";
+import Glasscard from "../components/glasscard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +57,9 @@ export default function Home() {
             exit={{ opacity: 0 }}
             className="bar bg-cyan-700"
           ></m.div>
+        </div>
+        <div className="absolute right-32 top-80 size w-1/2 h-1/2">
+          <Glasscard></Glasscard>
         </div>
       </main>
     </m.div>

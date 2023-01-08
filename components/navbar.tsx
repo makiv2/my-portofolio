@@ -76,7 +76,7 @@ function Navbar() {
           <div ref={(el) => (links.current[2] = el)} className="nav-item relative">
             <li>
               <Link onClick={() => handleClick(links.current[2])} href="/experience">
-                Experience and Education
+                Experience
               </Link>
             </li>
           </div>

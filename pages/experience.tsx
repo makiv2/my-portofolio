@@ -10,10 +10,11 @@ function Experience() {
       className="text-gray-900 absolute top-0 w-full h-85.7p bg-cyan-600 lg:px-32 px-16"
     >
       <main>
-        <div className="mt-80 overflow-hidden absolute left-32">
+        <div className="mt-80 absolute left-32">
           <h1 className="text-6xl text-center lg:text-left lg:text-8xl px-15 font-rowdies">
             Experience
           </h1>
+          <div className="bg-slate-500 expbar"></div>
         </div>
       </main>
     </m.div>
