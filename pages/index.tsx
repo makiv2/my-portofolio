@@ -30,7 +30,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.65, ease: "easeOut" }}
-      exit={{ opacity: 0 }}
+      exit={{ opacity: 1 }}
       className="text-gray-900 absolute top-0 w-full h-85.7p bg-green-400 lg:px-32 px-16"
     >
       <Head>

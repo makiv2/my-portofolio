@@ -30,7 +30,13 @@ function Projects() {
           <div className="sidebarright bg-orange-400"></div>
         </div>
 
-        <section className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid">
+        <m.section
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5, ease: "easeOut" }}
+          exit={{ opacity: 0 }}
+          className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid"
+        >
           <div className="relative boxSize">
             <Opencard />
           </div>
@@ -43,7 +49,7 @@ function Projects() {
           <div className="relative boxSize">
             <Opencard />
           </div>
-        </section>
+        </m.section>
       </main>
     </m.div>
   );
