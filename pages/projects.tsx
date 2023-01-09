@@ -1,5 +1,5 @@
 import { motion as m } from "framer-motion";
-import Glasscard from "../components/glasscard";
+import Opencard from "../components/opencard";
 
 function Projects() {
   return (
@@ -30,13 +30,19 @@ function Projects() {
           <div className="sidebarright bg-orange-400"></div>
         </div>
 
-        <section className="bg-slate-400 absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid">
-          <div className="bg-blue-50 boxSize"></div>
-          <div className="bg-blue-50 boxSize"></div>
-          <div className="bg-blue-50 boxSize"></div>
-          <div className="bg-blue-50 boxSize"></div>
-          <div className="bg-blue-50 boxSize"></div>
-          <div className="bg-blue-50 boxSize"></div>
+        <section className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid">
+          <div className="relative boxSize">
+            <Opencard />
+          </div>
+          <div className="relative boxSize">
+            <Opencard />
+          </div>
+          <div className="relative boxSize">
+            <Opencard />
+          </div>
+          <div className="relative boxSize">
+            <Opencard />
+          </div>
         </section>
       </main>
     </m.div>
@@ -44,5 +50,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
