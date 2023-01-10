@@ -1,9 +1,5 @@
-import lightmode from "../public/lightmode.svg";
-import darkmode from "../public/darkmode.svg";
-import Image from "next/image";
-import { use, useEffect, useRef } from "react";
+import { use, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-
 import { gsap } from "gsap";
 import Flip from "gsap/dist/Flip";
 
@@ -40,7 +36,19 @@ function Navbar() {
     }
     Flip.from(state, { duration: 0.8, ease: "elastic.out(1, 0.5)" });
     //ease: "power2.inOut"
+
+    //If element is the main page, change the color of the footer to blue, if the element is of the projects page, change the color to red, if the element is of the experience page, change the color to green
+  
+    if (e === links.current[0]) {
+      gsap.to(".footercolorchanger", { backgroundColor: "#00ADB5" });
+    } else if (e === links.current[1]) {
+      gsap.to(".footercolorchanger", { backgroundColor: "#FF0000" });
+    } else if (e === links.current[2]) {
+      gsap.to(".footercolorchanger", { backgroundColor: "#8FCE00" });
+    }
+
   };
+
 
   return (
     <div className="border-t-4 border-custom-third border-solid z-20 relative">

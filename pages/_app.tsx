@@ -9,11 +9,11 @@ import "../styles/backgrounds.css";
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
-        <Navbar />
-        <AnimatePresence initial={true} mode={'sync'} >
+      <Navbar />
+      <AnimatePresence initial={true} mode={"sync"}>
         <Component key={router.pathname} {...pageProps} />
-        </AnimatePresence>
-        <Footer />
+      </AnimatePresence>
+      <Footer />
     </>
   );
 }
