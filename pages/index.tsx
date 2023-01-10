@@ -85,7 +85,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
           exit={{ opacity: 0 }}
-          className="absolute bottom-0 left-0 pl-14 pr-24 bottom10 topthird w-1/2"
+          className="absolute left-1 pl-14 pr-24 pt-7 topthird w-1/2"
         >
           <Glasscard></Glasscard>
         </m.div>

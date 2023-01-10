@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 
 function glasscard() {
   return (
-    <Tilt reset={false} tiltMaxAngleX={10} tiltMaxAngleY={5}>
+    <Tilt reset={true} tiltMaxAngleX={10} tiltMaxAngleY={5} glareEnable={true} glareMaxOpacity={0.5} glareColor="#ffffff" glarePosition="bottom" glareBorderRadius="20px">
       <div className="card">
         <div className="content">
           <h2 className="h2content">01</h2>
@@ -12,8 +12,9 @@ function glasscard() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quisquam, quod. use parallax tilt for the text on top test 
+            Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Quisquam, quod. use parallax tilt for the text on top test
-            https://mkosir.github.io/react-parallax-tilt/?path=/story/react-parallax-tilt--parallax-effect-img
           </p>
         </div>
       </div>
