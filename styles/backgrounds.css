@@ -1,0 +1,10 @@
+.spacer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 900/600;
+}
+
+.mainbackground {
+  background-image: url(../backgrounds/blob-haikei\ \(1\).svg);
+}

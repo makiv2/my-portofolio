@@ -24,7 +24,7 @@ function Navbar() {
 
   const handleClick = (e: Element) => {
     links.current.forEach((link) => {
-      gsap.to(link, { color: "#252525" });
+      gsap.to(link, { color: "#e0e0e0" });
     });
 
     links.current.forEach((link) => {
@@ -45,9 +45,9 @@ function Navbar() {
   };
 
   return (
-    <div className="border-t-4 border-custom-second border-solid z-20 relative">
+    <div className="border-t-4 border-custom-third border-solid z-20 relative">
       <nav className="flex justify-center">
-        <ul className="font-rowdies px-12 py-8 flex list-none gap-20 text-2xl text-gray-900 bg-custom-third rounded-3xl shadow-md mb-4 mt-2">
+        <ul className="font-rowdies px-12 py-8 flex list-none gap-20 text-2xl text-main-fourth rounded-3xl shadow-md mb-4 mt-2">
 
 
 

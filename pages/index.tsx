@@ -31,7 +31,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.65, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="text-gray-900 absolute top-0 w-full h-85.7p bg-green-400 lg:px-32 px-16"
+      className="text-main-fourth absolute top-0 w-full h-85.7p mainbackground spacer lg:px-32 px-16"
     >
       <Head>
         <title>Matija Popovic Portofolio</title>
@@ -46,7 +46,7 @@ export default function Home() {
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
             transition={{ delay: 0.25, duration: 1, type: "spring" }}
-            className="text-6xl text-center lg:text-left lg:text-8xl pb-6 px-4 font-rowdies"
+            className="text-6xl text-center lg:text-left lg:text-8xl pb-6 px-4 font-lobster"
           >
             Matija Popovic
           </m.h1>
@@ -55,7 +55,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             exit={{ opacity: 0 }}
-            className="bar bg-cyan-700"
+            className="bar bg-custom-third"
           ></m.div>
         </div>
         <m.div

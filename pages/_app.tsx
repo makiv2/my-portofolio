@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import { AnimatePresence } from "framer-motion";
 import "../styles/glasscard.css";
+import "../styles/backgrounds.css";
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
