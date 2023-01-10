@@ -4,6 +4,7 @@ import Socials from "../components/socials";
 import Footer from "../components/footer";
 import { motion as m } from "framer-motion";
 import Glasscard from "../components/glasscard";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -58,18 +59,37 @@ export default function Home() {
             className="bar bg-custom-third"
           ></m.div>
 
-          <h2 className="fixed text-5xl negmarg font-luckiest border border-main-fourth text-main-fourth">Software developer</h2>
+          <h2 className="fixed text-5xl negmarg font-luckiest border border-main-fourth text-main-fourth">
+            Software developer
+          </h2>
         </div>
-
         <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.65, ease: "easeOut" }}
           exit={{ opacity: 0 }}
-          className="absolute bottom-0 left-0 pl-14 pr-24  bottom10 topthird w-1/2"
+        >
+          <Image
+            className="absolute meImage"
+            src="/image_me.JPG"
+            alt="Picture of the author"
+            width={500}
+            height={500}
+          />
+        </m.div>
+        <div>
+          <Image src="/dots1.png" alt="Dots" width={500} height={500} className="absolute meDots -z-10"></Image>
+        </div>
+        <m.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
+          exit={{ opacity: 0 }}
+          className="absolute bottom-0 left-0 pl-14 pr-24 bottom10 topthird w-1/2"
         >
           <Glasscard></Glasscard>
         </m.div>
+        <div></div>
       </main>
     </m.div>
   );
