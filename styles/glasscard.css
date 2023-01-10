@@ -29,7 +29,7 @@
 */
 
 .content {
-  padding: 15vh;
+  padding: 12vh;
   text-align: center;
 }
 
@@ -63,8 +63,10 @@
   bottom: 10vh;
 }
 
-.topthird {
-  top: 30vh;
+.mainglasscard {
+  top: 35vh;
+  width: 38%;
+  left: 5rem;
 }
 
 .toptenth {
