@@ -14,13 +14,11 @@ function Navbar() {
   const links = useRef(new Array(3));
   const activeNav = useRef<HTMLDivElement>(null);
 
-
   useEffect(() => {
     //set active nav
     gsap.to(links.current[0], { color: "rgb(34, 211, 238)" });
-    console.log('test')
+    console.log("test");
   }, []);
-
 
   const handleClick = (e: Element) => {
     links.current.forEach((link) => {
@@ -40,17 +38,14 @@ function Navbar() {
       console.log(e);
       e.appendChild(activeNav.current);
     }
-    Flip.from(state, { duration: 0.8,  ease: "elastic.out(1, 0.5)"});
+    Flip.from(state, { duration: 0.8, ease: "elastic.out(1, 0.5)" });
     //ease: "power2.inOut"
   };
 
   return (
     <div className="border-t-4 border-custom-third border-solid z-20 relative">
       <nav className="flex justify-center">
-        <ul className="font-rowdies px-12 py-8 flex list-none gap-20 text-2xl text-main-fourth rounded-3xl shadow-md mb-4 mt-2">
-
-
-
+        <ul className="font-rowdies px-12 pb-6 pt-8 flex list-none gap-20 text-2xl text-main-fourth navbotborder shadow-main-third mt-2">
           <div
             ref={(el) => (links.current[0] = el)}
             className="nav-item relative"
@@ -66,16 +61,28 @@ function Navbar() {
             ></div>
           </div>
 
-          <div ref={(el) => (links.current[1] = el)} className="nav-item relative">
+          <div
+            ref={(el) => (links.current[1] = el)}
+            className="nav-item relative"
+          >
             <li>
-              <Link onClick={() => handleClick(links.current[1])} href="/projects">
+              <Link
+                onClick={() => handleClick(links.current[1])}
+                href="/projects"
+              >
                 Projects
               </Link>
             </li>
           </div>
-          <div ref={(el) => (links.current[2] = el)} className="nav-item relative">
+          <div
+            ref={(el) => (links.current[2] = el)}
+            className="nav-item relative"
+          >
             <li>
-              <Link onClick={() => handleClick(links.current[2])} href="/experience">
+              <Link
+                onClick={() => handleClick(links.current[2])}
+                href="/experience"
+              >
                 Experience
               </Link>
             </li>

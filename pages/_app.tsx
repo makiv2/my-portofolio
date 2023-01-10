@@ -10,7 +10,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
         <Navbar />
-        <AnimatePresence initial={false} mode={'sync'} >
+        <AnimatePresence initial={true} mode={'sync'} >
         <Component key={router.pathname} {...pageProps} />
         </AnimatePresence>
         <Footer />

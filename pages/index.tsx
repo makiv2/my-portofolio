@@ -42,12 +42,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="mt-32 overflow-hidden absolute">
+        <div className="overflow-hidden absolute margintop120">
           <m.h1
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
             transition={{ delay: 0.25, duration: 1, type: "spring" }}
-            className="text-6xl text-center lg:text-left lg:text-8xl pb-6 px-4 font-lobster"
+            className="text-6xl text-center lg:text-left lg:text-8xl pb-6 px-4 font-lobster "
           >
             Matija Popovic
           </m.h1>
@@ -59,9 +59,15 @@ export default function Home() {
             className="bar bg-custom-third"
           ></m.div>
 
-          <h2 className="fixed text-5xl negmarg font-luckiest border border-main-fourth text-main-fourth">
+          <m.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.3, ease: "easeOut" }}
+            exit={{ opacity: 0 }}
+            className="fixed text-5xl negmarg font-luckiest border-main-fourth text-main-fourth"
+          >
             Software developer
-          </h2>
+          </m.h2>
         </div>
         <m.div
           initial={{ opacity: 0 }}
@@ -78,7 +84,13 @@ export default function Home() {
           />
         </m.div>
         <div>
-          <Image src="/dots1.png" alt="Dots" width={500} height={500} className="absolute meDots -z-10"></Image>
+          <Image
+            src="/dots1.png"
+            alt="Dots"
+            width={500}
+            height={500}
+            className="absolute meDots -z-10"
+          ></Image>
         </div>
         <m.div
           initial={{ opacity: 0 }}
