@@ -19,13 +19,19 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+
+
+
+
+
+    opacity: 0;
+  transition: 0.5s;
+  { transform: translateY(100px);  }
 */
 
 .content {
   padding: 15vh;
-  text-align: center; { /*transform: translateY(100px); */ }
-  opacity: 0;
-  transition: 0.5s;
+  text-align: center;
 }
 
 .content:hover {
@@ -55,37 +61,32 @@
 }
 
 .bottom10 {
-    bottom: 10vh;
+  bottom: 10vh;
 }
 
 .topthird {
-    top: 30vh;
+  top: 30vh;
 }
 
 .toptenth {
-    top: 15vh;
+  top: 15vh;
 }
-
 
 .boxSize {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-.grid
- {
+.grid {
   display: grid;
-  grid-template-columns: repeat(2, 45%);  /* 3 columns */
-  grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  grid-template-columns: repeat(2, 45%); /* 3 columns */
+  grid-gap: 50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
 }
 
-.grid-item{
-  border:thin gray solid;
-  padding:10px;
+.grid-item {
+  border: thin gray solid;
+  padding: 10px;
 }
-
 
 /* Card1 */
 
@@ -110,7 +111,7 @@
   text-align: justify;
   color: black;
   padding: 40px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .flap {
@@ -123,7 +124,8 @@
   content: "";
   height: 100%;
   width: 50%;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
   background-position: 100px;
   background-repeat: no-repeat;
   transition: 1s;
@@ -135,7 +137,8 @@
   height: 100%;
   width: 50%;
   right: 0;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
   background-position: -200px;
   background-repeat: no-repeat;
   transition: 1s;
@@ -145,9 +148,12 @@
   transform: translatex(100%);
 }
 
-.projectscardcontainer:hover .flap::before{
+.projectscardcontainer:hover .flap::before {
   transform: translatex(-100%);
 }
 
+.negmarg {
+  transform: translate(8%, -26%);
+}
 
 /* Card2 */

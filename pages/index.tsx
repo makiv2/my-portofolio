@@ -41,7 +41,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="mt-36 overflow-hidden absolute">
+        <div className="mt-32 overflow-hidden absolute">
           <m.h1
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
@@ -57,7 +57,10 @@ export default function Home() {
             exit={{ opacity: 0 }}
             className="bar bg-custom-third"
           ></m.div>
+
+          <h2 className="fixed text-5xl negmarg font-luckiest border border-main-fourth text-main-fourth">Software developer</h2>
         </div>
+
         <m.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
