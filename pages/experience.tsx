@@ -7,7 +7,7 @@ function Experience() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.4, ease: "easeOut" }}
       exit={{ opacity: 0 }}
-      className="text-gray-900 absolute top-0 w-full h-85.7p bg-cyan-600 lg:px-32 px-16"
+      className="text-gray-900 absolute top-0 w-full h-85.7p bg-green-600 lg:px-32 px-16"
     >
       <main>
         <div className="mt-80 absolute left-32">

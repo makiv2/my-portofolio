@@ -8,7 +8,7 @@ function Projects() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="text-gray-900 absolute top-0 w-full h-85.7p bg-red-400 lg:px-32 px-16"
+      className="text-main-fourth absolute top-0 w-full h-85.7p projectbackground spacer lg:px-32 px-16"
     >
       <main>
         <div className="mt-60 overflow-hidden absolute right-32">
@@ -26,8 +26,8 @@ function Projects() {
           >
             Projects
           </m.h1>
-          <div className="sidebarleft bg-orange-400"></div>
-          <div className="sidebarright bg-orange-400"></div>
+          <div className="sidebarleft bg-project-camroon"></div>
+          <div className="sidebarright bg-project-camroon"></div>
         </div>
 
         <m.section

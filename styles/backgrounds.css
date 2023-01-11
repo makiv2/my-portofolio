@@ -2,7 +2,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  aspect-ratio: 900/600;
 }
 
 .mainbackground {
@@ -38,4 +37,21 @@
 
 .footercolorchanger {
   background-color: #00ADB5;
+}
+
+.sliderColor {
+  background-color: #00ADB5;  
+}
+
+.colorchanger {
+  background-color: #00ADB5;
+}
+
+.bordercolorchanger {
+  border-color: #00ADB5;
+}
+
+
+.textfootercolor {
+  color: #000000;
 }

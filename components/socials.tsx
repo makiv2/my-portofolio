@@ -6,7 +6,7 @@ import twitter from "../public/twitter.svg";
 
 function Socials() {
   return (
-    <div className="font-specialelite font-bold w-full flex justify-evenly">
+    <div className="font-specialelite textfootercolor font-bold w-full flex justify-evenly">
       {/* CHANGE FONT? */}
       
       <div className="flex items-center">
