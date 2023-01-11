@@ -56,6 +56,13 @@ module.exports = {
           camroon: "#800000",
           test2: "#0b0c10",
         },
+        experience: {
+          first: "#5680e9",
+          second: "#84ceeb",
+          third: "#5ab9ea",
+          fourth: "#c1c8e4",
+          fifth: "#5680e9",
+        },
       },
     },
     plugins: [],

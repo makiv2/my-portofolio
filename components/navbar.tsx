@@ -29,7 +29,7 @@ function Navbar() {
         } else if (e === links.current[1]) {
           gsap.to(link, { color: "#c90000" });
         } else if (e === links.current[2]) {
-          gsap.to(link, { color: "#8FCE00" });
+          gsap.to(link, { color: "#8860d0" });
         }
 
       }
@@ -49,7 +49,7 @@ function Navbar() {
   
     if (e === links.current[0]) {
       gsap.to(".colorchanger", { backgroundColor: "#00ADB5" });
-      gsap.to(".footercolorchanger", { backgroundColor: "#00ADB5" });
+
       gsap.to(".navbotborder", { borderColor: "#00ADB5" });
       gsap.to(".bordercolorchanger", { borderColor: "#00ADB5" });
       gsap.to(".sliderColor", { backgroundColor: "rgb(34, 211, 238)" });
@@ -57,18 +57,18 @@ function Navbar() {
 
     } else if (e === links.current[1]) {
       gsap.to(".colorchanger", { backgroundColor: "#800000" });
-      gsap.to(".footercolorchanger", { backgroundColor: "#800000" });
+
       gsap.to(".navbotborder", { borderColor: "#800000" });
       gsap.to(".bordercolorchanger", { borderColor: "#800000" });
       gsap.to(".sliderColor", { backgroundColor: "#c90000" });
       gsap.to(".textfootercolor", { color: "#e0e0e0" });
       
     } else if (e === links.current[2]) {
-      gsap.to(".colorchanger", { backgroundColor: "#8FCE00" });
-      gsap.to(".footercolorchanger", { backgroundColor: "#8FCE00" });
-      gsap.to(".navbotborder", { borderColor: "#8FCE00" });
-      gsap.to(".bordercolorchanger", { borderColor: "#8FCE00" });
-      gsap.to(".sliderColor", { backgroundColor: "#8FCE00" });
+      gsap.to(".colorchanger", { backgroundColor: "#c1c8e4" });
+
+      gsap.to(".navbotborder", { borderColor: "#8860d0" });
+      gsap.to(".bordercolorchanger", { borderColor: "#8860d0" });
+      gsap.to(".sliderColor", { backgroundColor: "#8860d0" });
       gsap.to(".textfootercolor", { color: "#000000" });
     }
 

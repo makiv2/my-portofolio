@@ -7,6 +7,7 @@ import "../styles/glasscard.css";
 import "../styles/backgrounds.css";
 import "../styles/projectbackgrounds.css";
 import "../styles/opencard.css";
+import "../styles/experience.css";
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
