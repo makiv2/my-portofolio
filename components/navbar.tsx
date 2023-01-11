@@ -29,7 +29,7 @@ function Navbar() {
         } else if (e === links.current[1]) {
           gsap.to(link, { color: "#c90000" });
         } else if (e === links.current[2]) {
-          gsap.to(link, { color: "rgb(34, 211, 238)" });
+          gsap.to(link, { color: "#8FCE00" });
         }
 
       }
@@ -69,6 +69,7 @@ function Navbar() {
       gsap.to(".navbotborder", { borderColor: "#8FCE00" });
       gsap.to(".bordercolorchanger", { borderColor: "#8FCE00" });
       gsap.to(".sliderColor", { backgroundColor: "#8FCE00" });
+      gsap.to(".textfootercolor", { color: "#000000" });
     }
 
   };
