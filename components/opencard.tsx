@@ -9,7 +9,8 @@ function opencard() {
           want to send
         </h3>
       </div>
-      <div className="flap"></div>
+      <div className="flap">
+      </div>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const content = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit'
+
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -99,7 +101,7 @@ export default function Home() {
           exit={{ opacity: 0 }}
           className="absolute mainglasscard"
         >
-          <Glasscard></Glasscard>
+          <Glasscard text={content} ></Glasscard>
         </m.div>
         <div></div>
       </main>

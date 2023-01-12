@@ -1,7 +1,11 @@
 import { motion as m } from "framer-motion";
 import Opencard from "../components/opencard";
+import Glasscard from "../components/glasscard";
 
 function Projects() {
+  const content =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -37,16 +41,16 @@ function Projects() {
           className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid"
         >
           <div className="relative boxSize">
-            <Opencard />
+            <Glasscard text={content}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Opencard />
+            <Glasscard text={content}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Opencard />
+            <Glasscard text={content}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Opencard />
+            <Glasscard text={content}></Glasscard>
           </div>
         </m.section>
       </main>

@@ -1,6 +1,6 @@
 import Tilt from "react-parallax-tilt";
 
-function glasscard() {
+function glasscard({text}: {text: string}) {
   return (
     <Tilt
       reset={true}
@@ -8,7 +8,7 @@ function glasscard() {
       tiltMaxAngleY={5}
       glareEnable={true}
       glareMaxOpacity={0.5}
-      glareColor="#ffffff"
+      glareColor="#e0e0e0"
       glarePosition="bottom"
       glareBorderRadius="20px"
     >
@@ -16,10 +16,7 @@ function glasscard() {
         <div className="content">
           <h2 className="h2content">:D</h2>
           <p className="pcontent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum
-            dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Lorem ipsum dolor sit
+            {text}
           </p>
         </div>
       </div>
