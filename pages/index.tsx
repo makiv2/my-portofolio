@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const content = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit'
+const content = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor si amet consectetur adipisicing elit. Lorem ipsum dolor sit'
 
 const containerVariants = {
   hidden: {
