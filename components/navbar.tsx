@@ -23,7 +23,6 @@ function Navbar() {
 
     links.current.forEach((link) => {
       if (link === e) {
-
         if (e === links.current[0]) {
           gsap.to(link, { color: "rgb(34, 211, 238)" });
         } else if (e === links.current[1]) {
@@ -31,7 +30,6 @@ function Navbar() {
         } else if (e === links.current[2]) {
           gsap.to(link, { color: "#8860d0" });
         }
-
       }
     });
 
@@ -46,7 +44,7 @@ function Navbar() {
     //ease: "power2.inOut"
 
     //If element is the main page, change the color of the footer to blue, if the element is of the project page, change the color to red, if the element is of the experience page, change the color to green
-  
+
     if (e === links.current[0]) {
       gsap.to(".colorchanger", { backgroundColor: "#00ADB5" });
 
@@ -54,7 +52,6 @@ function Navbar() {
       gsap.to(".bordercolorchanger", { borderColor: "#00ADB5" });
       gsap.to(".sliderColor", { backgroundColor: "rgb(34, 211, 238)" });
       gsap.to(".textfootercolor", { color: "#000000" });
-
     } else if (e === links.current[1]) {
       gsap.to(".colorchanger", { backgroundColor: "#800000" });
 
@@ -62,7 +59,6 @@ function Navbar() {
       gsap.to(".bordercolorchanger", { borderColor: "#800000" });
       gsap.to(".sliderColor", { backgroundColor: "#c90000" });
       gsap.to(".textfootercolor", { color: "#e0e0e0" });
-      
     } else if (e === links.current[2]) {
       gsap.to(".colorchanger", { backgroundColor: "#c1c8e4" });
 
@@ -71,9 +67,7 @@ function Navbar() {
       gsap.to(".sliderColor", { backgroundColor: "#8860d0" });
       gsap.to(".textfootercolor", { color: "#000000" });
     }
-
   };
-
 
   return (
     <div className="border-t-4 bordercolorchanger border-solid z-20 relative">

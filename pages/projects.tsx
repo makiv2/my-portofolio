@@ -13,21 +13,20 @@ function Projects() {
       <main>
         <div className="mt-60 overflow-hidden absolute right-32">
           <m.h1
-            animate={{ x: 0 }}
-            initial={{ x: "100%" }}
-            transition={{
-              delay: 0.25,
-              duration: 1,
-              type: "spring",
-              stiffness: 200,
-              damping: 15,
-            }}
+            animate={{ y: 0 }}
+            initial={{ y: "100%" }}
+            transition={{ delay: 0.25, duration: 1, type: "spring" }}
             className="text-6xl text-center lg:text-left lg:text-8xl py-4 font-rowdies"
           >
             Projects
           </m.h1>
-          <div className="sidebarleft bg-project-camroon"></div>
-          <div className="sidebarright bg-project-camroon"></div>
+          <m.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            exit={{ opacity: 0 }}
+            className="bar bg-project-camroon"
+          ></m.div>
         </div>
 
         <m.section
