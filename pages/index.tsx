@@ -8,24 +8,14 @@ import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const content = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor si amet consectetur adipisicing elit. Lorem ipsum dolor sit'
+const content = "NTNU, my academic home \n\
+Master's degree, my future to hone\n\
+Research assistant, the work I do\n\
+At HYRE, this summer, an intern to be\n\
+With knowledge and skills, I pave my way\n\
+To a bright future, come what may.";
 
-const containerVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 0.5,
-      duration: 0.5,
-    },
-  },
-  exit: {
-    x: "-100vw",
-    transition: { ease: "easeInOut" },
-  },
-};
+const backgroundtext = "Summary";
 
 export default function Home() {
   return (
@@ -101,7 +91,7 @@ export default function Home() {
           exit={{ opacity: 0 }}
           className="absolute mainglasscard"
         >
-          <Glasscard text={content} ></Glasscard>
+          <Glasscard text={content} backtext={backgroundtext}></Glasscard>
         </m.div>
         <div></div>
       </main>

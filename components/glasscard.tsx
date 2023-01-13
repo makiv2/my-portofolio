@@ -1,6 +1,6 @@
 import Tilt from "react-parallax-tilt";
 
-function glasscard({text}: {text: string}) {
+function glasscard({text,backtext}: {text: string, backtext: string}) {
   return (
     <Tilt
       reset={true}
@@ -14,7 +14,7 @@ function glasscard({text}: {text: string}) {
     >
       <div className="card font-lobster">
         <div className="content">
-          <h2 className="h2content">:D</h2>
+          <h2 className="h2content">{backtext}</h2>
           <p className="pcontent">
             {text}
           </p>
