@@ -41,16 +41,16 @@ function Projects() {
           className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid"
         >
           <div className="relative boxSize">
-            <Glasscard text={content}></Glasscard>
+            <Glasscard text={content} backtext={'1'}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content}></Glasscard>
+            <Glasscard text={content} backtext={'2'}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content}></Glasscard>
+            <Glasscard text={content} backtext={'3'}></Glasscard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content}></Glasscard>
+            <Glasscard text={content} backtext={'4'}></Glasscard>
           </div>
         </m.section>
       </main>
