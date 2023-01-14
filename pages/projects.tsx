@@ -15,7 +15,7 @@ function Projects() {
       className="text-main-fourth absolute top-0 w-full h-85.7p projectbackground spacer lg:px-32 px-16"
     >
       <main>
-        <div className="mt-60 overflow-hidden absolute right-32">
+        <div className="mt-60 overflow-hidden absolute right-40">
           <m.h1
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
@@ -38,7 +38,7 @@ function Projects() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5, ease: "easeOut" }}
           exit={{ opacity: 0 }}
-          className="absolute left-10 w-2/3 toptenth bottom-10 justify-evenly items-center grid"
+          className="absolute left-10 w-3/5 toptenth bottom-10 justify-evenly items-center grid"
         >
           <div className="relative boxSize">
             <Glasscard text={content} backtext={'1'}></Glasscard>
