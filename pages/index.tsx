@@ -13,7 +13,7 @@ Master's degree, my future to hone\n\
 Research assistant, the work I do\n\
 At HYRE, this summer, an intern to be\n\
 With knowledge and skills, I pave my way\n\
-To a bright future, come what may.";
+To a bright future, come what may.\n\ - ChatGPT";
 
 const backgroundtext = "Summary";
 
