@@ -4,7 +4,7 @@ import Glasscard from "../components/glasscard";
 
 function Projects() {
   const content =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit";
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit/";
 
   return (
     <m.div

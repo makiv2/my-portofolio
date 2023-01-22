@@ -70,9 +70,9 @@ function Navbar() {
   };
 
   return (
-    <div className="border-t-4 bordercolorchanger border-solid z-20 relative">
-      <nav className="flex justify-center">
-        <ul className="font-rowdies px-12 pb-6 pt-8 flex list-none gap-20 text-2xl text-main-fourth navbotborder mt-2">
+    <div className="border-t-4 bordercolorchanger border-solid z-20 relative ">
+      <nav className="flex justify-center aspect125">
+        <ul className="font-rowdies px-12 pb-6 pt-8 flex list-none gap-20 text-2xl text-main-fourth navbotborder mt-2 ">
           <div
             ref={(el) => (links.current[0] = el)}
             className="nav-item relative"
