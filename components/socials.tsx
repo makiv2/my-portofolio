@@ -31,7 +31,7 @@ function Socials() {
       </div>
 
       <div className="flex items-center">
-        <a className="flex px-10" target="_blank" href="https://www.linkedin.com/in/matija-popovic-1b1b1b1b1" rel="noreferrer">
+        <a className="flex px-10" target="_blank" href="www.linkedin.com/in/matija-popovic00" rel="noreferrer">
           <Image src={linkedin} alt="Linkedin: " width={25} height={25} />
           &nbsp;/in/matija-popovic
         </a>
