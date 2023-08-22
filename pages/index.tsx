@@ -1,12 +1,8 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import Socials from "../components/socials";
-import Footer from "../components/footer";
 import { motion as m } from "framer-motion";
 import Glasscard from "../components/glasscard";
 import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const content = "NTNU, my academic home \n\
 Master's degree, my future to hone\n\
@@ -17,7 +13,7 @@ To a bright future, come what may.\n\ - ChatGPT";
 
 const backgroundtext = "Summary";
 
-export default function Home() {
+const Home = () => {
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -98,3 +94,5 @@ export default function Home() {
     </m.div>
   );
 }
+
+export default Home;
