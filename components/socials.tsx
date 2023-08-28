@@ -1,8 +1,8 @@
 import Image from "next/image";
-import github from "../public/github.svg";
-import mail from "../public/mail.svg";
-import linkedin from "../public/linkedin.svg";
-import twitter from "../public/twitter.svg";
+const github = require("../public/github.svg") as string;
+const mail = require("../public/mail.svg") as string;
+const twitter = require("../public/twitter.svg") as string;
+const linkedin = require("../public/linkedin.svg") as string;
 
 function Socials() {
   return (
