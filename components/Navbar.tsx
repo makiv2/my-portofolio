@@ -6,7 +6,7 @@ import Flip from "gsap/dist/Flip";
 // function for toggling dark mode
 gsap.registerPlugin(Flip);
 
-function Navbar() {
+const Navbar = () => {
   const links = useRef(new Array(3));
   const activeNav = useRef<HTMLDivElement>(null);
 

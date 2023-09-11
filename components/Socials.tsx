@@ -4,7 +4,7 @@ const mail = require("../public/mail.svg") as string;
 const twitter = require("../public/twitter.svg") as string;
 const linkedin = require("../public/linkedin.svg") as string;
 
-function Socials() {
+const Socials = () => {
   return (
     <div className="font-specialelite textfootercolor font-bold w-full flex justify-evenly">
       {/* CHANGE FONT? */}

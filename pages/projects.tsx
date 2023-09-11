@@ -1,6 +1,5 @@
 import { motion as m } from "framer-motion";
-import Opencard from "../components/opencard";
-import Glasscard from "../components/glasscard";
+import GlassCard from "../components/GlassCard";
 
 function Projects() {
   const content =
@@ -41,16 +40,16 @@ function Projects() {
           className="absolute left-10 w-3/5 toptenth bottom-10 justify-evenly items-center grid"
         >
           <div className="relative boxSize">
-            <Glasscard text={content} backtext={'1'}></Glasscard>
+            <GlassCard text={content} backgroundText={'1'}></GlassCard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content} backtext={'2'}></Glasscard>
+            <GlassCard text={content} backgroundText={'2'}></GlassCard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content} backtext={'3'}></Glasscard>
+            <GlassCard text={content} backgroundText={'3'}></GlassCard>
           </div>
           <div className="relative boxSize">
-            <Glasscard text={content} backtext={'4'}></Glasscard>
+            <GlassCard text={content} backgroundText={'4'}></GlassCard>
           </div>
         </m.section>
       </main>
