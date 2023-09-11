@@ -1,5 +1,4 @@
 import { motion as m } from "framer-motion";
-import Particles from "../components/particles";
 
 function Experience() {
   return (

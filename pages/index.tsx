@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { motion as m } from "framer-motion";
-import Glasscard from "../components/glasscard";
+import GlassCard from "../components/GlassCard";
 import Image from "next/image";
 
 const content = "NTNU, my academic home \n\
@@ -87,7 +87,7 @@ const Home = () => {
           exit={{ opacity: 0 }}
           className="absolute mainglasscard"
         >
-          <Glasscard text={content} backtext={backgroundtext}></Glasscard>
+          <GlassCard text={content} backgroundText={backgroundtext}></GlassCard>
         </m.div>
         <div></div>
       </main>
