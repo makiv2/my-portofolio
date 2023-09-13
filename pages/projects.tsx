@@ -11,7 +11,7 @@ function Projects() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="text-main-fourth absolute top-0 w-full h-85.7p projectbackground spacer lg:px-32 px-16"
+      className="text-main-fourth absolute top-0 w-full h-85.7p projectBackground backgroundStyle lg:px-32 px-16"
     >
       <main>
         <div className="mt-60 overflow-hidden absolute right-40">
@@ -28,7 +28,7 @@ function Projects() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             exit={{ opacity: 0 }}
-            className="bar bg-project-camroon"
+            className="barUnderName bg-project-camroon"
           ></m.div>
         </div>
 

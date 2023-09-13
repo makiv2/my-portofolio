@@ -1,57 +1,68 @@
-.spacer {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.backgroundStyle {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Backgrounds */
+.mainBackground {
+    background-image: url(../backgrounds/mainBackground.svg);
 }
 
-.mainbackground {
-  background-image: url(../backgrounds/mainBackground.svg);
+.projectBackground {
+    background-image: url(../backgrounds/projectpagebackground.svg);
 }
+
+.experienceBackground {
+    background-image: url(../backgrounds/expbackground.svg);
+}
+
+
+
 
 .meImage {
-  right: 16vw;
-  top: 30vh;
-  width: 20%;
-  border: 5px solid #e0e0e0;
+    right: 16vw;
+    top: 30vh;
+    width: 20%;
+    border: 5px solid #e0e0e0;
 }
 
 .meDots {
-  right: 18vw;
-  top: 32vh;
-  width: 20%;
+    right: 18vw;
+    top: 32vh;
+    width: 20%;
 }
 
 .negmarg {
-  transform: translate(9%, -33%);
-  border-bottom: 4px dotted #e0e0e0;;
+    transform: translate(9%, -33%);
+    border-bottom: 4px dotted #e0e0e0;;
 }
 
 .margintop120 {
-  margin-top: 120px;
+    margin-top: 120px;
 }
 
 .navbotborder {
-  border-bottom: 3px dotted #00ADB5;
+    border-bottom: 3px dotted #00ADB5;
 }
 
 
 .footercolorchanger {
-  background-color: #00ADB5;
+    background-color: #00ADB5;
 }
 
 .sliderColor {
-  background-color: #00ADB5;  
+    background-color: #00ADB5;
 }
 
 .colorchanger {
-  background-color: #00ADB5;
+    background-color: #00ADB5;
 }
 
 .bordercolorchanger {
-  border-color: #00ADB5;
+    border-color: #00ADB5;
 }
 
 
 .textfootercolor {
-  color: #000000;
+    color: #000000;
 }
