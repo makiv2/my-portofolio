@@ -79,7 +79,7 @@ const Home = () => {
                     animate={{opacity: 1}}
                     transition={{delay: 0.4, duration: 0.6, ease: "easeOut"}}
                     exit={{opacity: 0}}
-                    className="absolute mainglasscard"
+                    className="absolute mainGlassCard"
                 >
                     <GlassCard text={content} backgroundText={backgroundText}></GlassCard>
                 </m.div>
