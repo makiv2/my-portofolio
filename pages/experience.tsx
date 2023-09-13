@@ -7,7 +7,7 @@ function Experience() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.4, ease: "easeOut" }}
       exit={{ opacity: 0 }}
-      className="text-main-fourth absolute top-0 w-full h-85.7p experiencebackground spacer lg:px-32 px-16"
+      className="text-main-fourth absolute top-0 w-full h-85.7p experienceBackground backgroundStyle lg:px-32 px-16"
     >
       <main>
         <div className="mt-80 absolute left-32">

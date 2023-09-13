@@ -5,9 +5,7 @@ import Footer from "../components/Footer";
 import { AnimatePresence } from "framer-motion";
 import "../styles/glasscard.css";
 import "../styles/backgrounds.css";
-import "../styles/projectbackgrounds.css";
 import "../styles/opencard.css";
-import "../styles/experience.css";
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
