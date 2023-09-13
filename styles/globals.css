@@ -9,56 +9,53 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .barUnderName {
-  position: absolute;
+    position: absolute;
 
-  bottom: -5px;
-  left: -1%;
+    bottom: -5px;
+    left: -1%;
 
-  width: 102%;
-  height: 53%;
+    width: 102%;
+    height: 53%;
 
-  transform-origin: center;
-  z-index: -1;
+    transform-origin: center;
+    z-index: -1;
 }
 
 @media (-webkit-device-pixel-ratio: 1.25) {
-  * {
-    zoom: 0.95;
-  }
+    * {
+        zoom: 0.95;
+    }
 
-  .mainglasscard {
-    zoom: 1.3;
-  }
+    .mainglasscard {
+        zoom: 1.3;
+    }
 
-  .aspect125 {
-    zoom: 1.1;
-    padding-left: 15%;
-  }
+    .aspect125 {
+        zoom: 1.1;
+        padding-left: 15%;
+    }
 }
 
 @media (-webkit-device-pixel-ratio: 1.5) {
-  * {
-    zoom: 0.94;
-  }
+    * {
+        zoom: 0.94;
+    }
 
-  .mainglasscard {
-    zoom: 1.35;
-  }
+    .mainglasscard {
+        zoom: 1.35;
+    }
 }
 
 /* Utility classes */
@@ -73,7 +70,13 @@ a {
 /* @media (min-width: 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */

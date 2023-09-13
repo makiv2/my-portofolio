@@ -16,22 +16,6 @@
     background-image: url(../backgrounds/expbackground.svg);
 }
 
-
-
-
-.meImage {
-    right: 16vw;
-    top: 30vh;
-    width: 20%;
-    border: 5px solid #e0e0e0;
-}
-
-.meDots {
-    right: 18vw;
-    top: 32vh;
-    width: 20%;
-}
-
 .negmarg {
     transform: translate(9%, -33%);
     border-bottom: 4px dotted #e0e0e0;;

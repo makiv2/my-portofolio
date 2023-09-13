@@ -1,0 +1,66 @@
+.meImage {
+    right: 16vw;
+    top: 30vh;
+    width: 24rem;
+    border: 5px solid #e0e0e0;
+}
+
+
+.meDots {
+    right: 18vw;
+    top: 32vh;
+    width: 24rem;
+}
+
+
+.mainGlassCard {
+    top: 34vh;
+    width: 35%;
+    left: 5vw;
+}
+
+
+@media (max-width: 1024px) {
+    .meImage {
+        top: 38vh;
+    }
+
+    .meDots {
+        top: 38vh;
+    }
+}
+
+
+@media (min-width: 1025px) and  (max-width: 1440px) {
+    .meImage {
+        top: 40%;
+        width: 30%;
+    }
+
+    .meDots {
+        top: 40%;
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 1920px) {
+    .meImage {
+        right: 12%;
+    }
+
+    .meDots {
+        right: 14%;
+    }
+}
+
+
+ @media (min-width: 1920px) {
+     .meImage {
+         width: 20%;
+     }
+
+     .meDots {
+         width: 20%;
+     }
+ }
