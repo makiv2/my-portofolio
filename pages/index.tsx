@@ -14,7 +14,7 @@ const Home = () => {
             animate={{opacity: 1}}
             transition={{duration: 0.65, ease: "easeOut"}}
             exit={{opacity: 1}}
-            className="text-main-fourth absolute top-0 w-full h-85.7p mainBackground backgroundStyle lg:px-32 px-16"
+            className="index text-main-fourth absolute top-0 w-full h-85.7p mainBackground backgroundStyle lg:px-32 px-16"
         >
             <Head>
                 <title>Matija Popovic Portofolio</title>
@@ -24,21 +24,24 @@ const Home = () => {
             </Head>
 
             <main>
-                <div className="overflow-hidden absolute margintop120">
+                <div className="index__div absolute margintop120">
+
+
                     <m.h1
                         animate={{y: 0}}
                         initial={{y: "100%"}}
                         transition={{delay: 0.25, duration: 1, type: "spring"}}
-                        className="text-6xl text-center lg:text-left lg:text-8xl pb-6 px-4 font-lobster "
+                        className="index__h1"
                     >
                         Matija Popovic
                     </m.h1>
+
                     <m.div
                         initial={{opacity: 0}}
                         animate={{opacity: 1}}
                         transition={{duration: 0.2, ease: "easeOut"}}
                         exit={{opacity: 0}}
-                        className="barUnderName bg-custom-third"
+                        className="index__bar bg-custom-third"
                     ></m.div>
 
                     <m.h2
@@ -46,11 +49,14 @@ const Home = () => {
                         animate={{opacity: 1}}
                         transition={{delay: 0.6, duration: 0.3, ease: "easeOut"}}
                         exit={{opacity: 0}}
-                        className="fixed text-5xl negmarg font-luckiest border-main-fourth text-main-fourth"
+                        className="index__h2 border-main-fourth text-main-fourth"
                     >
                         Software developer
                     </m.h2>
+
                 </div>
+
+
                 <m.div
                     initial={{opacity: 0}}
                     animate={{opacity: 1}}

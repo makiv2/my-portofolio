@@ -1,3 +1,37 @@
+.index {
+
+}
+
+.index__div {
+    margin: 6rem auto 0 -0.75rem;
+}
+
+.index__h1 {
+    font-size: 3rem;
+    font-family: Lobster, sans-serif;
+}
+
+.index__h2 {
+    font-size: 1.8rem;
+    font-family: Luckiest Guy, sans-serif;
+    line-height: 1;
+
+    transform: translate(4%, -50%);
+    border-bottom: 4px dotted #e0e0e0;
+}
+
+.index__bar {
+    position: absolute;
+    top: 2.6rem;
+    left: -2%;
+
+    width: 102%;
+    height: 24%;
+
+    transform-origin: center;
+    z-index: -1;
+}
+
 .meImage {
     right: 16vw;
     top: 30vh;
@@ -55,12 +89,12 @@
 }
 
 
- @media (min-width: 1920px) {
-     .meImage {
-         width: 20%;
-     }
+@media (min-width: 1920px) {
+    .meImage {
+        width: 20%;
+    }
 
-     .meDots {
-         width: 20%;
-     }
- }
+    .meDots {
+        width: 20%;
+    }
+}
