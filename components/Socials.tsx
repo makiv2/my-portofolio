@@ -7,7 +7,7 @@ const linkedin = require("../public/linkedin.svg") as string;
 
 const Socials = () => {
     return (
-        <div className="socials textfootercolor">
+        <div className="socials textfootercolor font-luckiest">
             {/* CHANGE FONT? */}
             <a className="socials__tags" target="_blank" href="mailto:matijap@stud.ntnu.no" rel="noreferrer">
                 <Image src={mail} alt="Mail: " width={25} height={25}/>
