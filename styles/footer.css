@@ -1,5 +1,4 @@
 .footer {
-    display: flex;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -7,17 +6,17 @@
 }
 
 .socials {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     /* TODO change font*/
     margin: 0 auto 0 auto;
     justify-content: space-evenly;
 }
 
 .socials__tags {
-    display: flex;
     align-items: center;
     text-decoration: none;
-    margin-top: 1.1rem;
+    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
 
@@ -27,4 +26,5 @@
 .socials__text {
     letter-spacing: 0.05rem;
     font-family: Lobster, sans-serif;
+    display: none;
 }

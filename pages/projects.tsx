@@ -1,5 +1,6 @@
 import { motion as m } from "framer-motion";
 import GlassCard from "../components/GlassCard";
+import Head from "next/head";
 
 function Projects() {
   const content =
@@ -13,6 +14,9 @@ function Projects() {
       exit={{ opacity: 1 }}
       className="text-main-fourth absolute top-0 w-full h-85.7p projectBackground backgroundStyle lg:px-32 px-16"
     >
+      <Head>
+        <meta name="theme-color" content="#0b0c10"/>
+      </Head>
       <main>
         <div className="mt-60 overflow-hidden absolute right-40">
           <m.h1
