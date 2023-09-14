@@ -21,18 +21,19 @@ a {
     text-decoration: none;
 }
 
-.barUnderName {
-    position: absolute;
 
-    bottom: -5px;
-    left: -1%;
+/*.barUnderName {*/
+/*    position: absolute;*/
 
-    width: 102%;
-    height: 53%;
+/*    bottom: -5px;*/
+/*    left: -1%;*/
 
-    transform-origin: center;
-    z-index: -1;
-}
+/*    width: 102%;*/
+/*    height: 53%;*/
+
+/*    transform-origin: center;*/
+/*    z-index: -1;*/
+/*}*/
 
 @media (-webkit-device-pixel-ratio: 1.25) {
     * {
