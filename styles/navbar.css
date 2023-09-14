@@ -1,10 +1,50 @@
 .navbar {
-
+    border-top-width: 4px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    border-style: solid;
+    z-index: 50;
+    --border-color: #00ADB5;
+    border-color: var(--border-color);
 }
 
-.navbar__ {}
-.navbar__ {}
-.navbar__ {}
-.navbar__ {}
-.navbar__ {}
-.navbar__ {}
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%; /* Adjust this value to control the starting point of the border */
+    width: 80%; /* Adjust this value to control the width of the border */
+    border-bottom: 3px dotted var(--border-color, transparent);
+}
+
+.navbar__ul {
+    font-family: Rowdies, sans-serif;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2.0rem;
+
+    margin: 0 auto 0 auto;
+    list-style: none;
+    justify-content: center;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar__ {
+}
+
+.navbar__ {
+}
+
+.navbar__ {
+}
+
+.navbar__ {
+}
+
+.navbar__ {
+}

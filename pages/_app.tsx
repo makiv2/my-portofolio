@@ -5,8 +5,9 @@ import { AnimatePresence } from "framer-motion";
 
 import "../styles/globals.css";
 import "../styles/footer.css";
+import "../styles/navbar.css";
 import "../styles/backgrounds.css";
-import "../styles/index.css"
+import "../styles/index.css";
 import "../styles/glasscard.css";
 import "../styles/opencard.css";
 
