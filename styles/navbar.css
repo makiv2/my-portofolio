@@ -34,17 +34,17 @@
     padding-bottom: 1.5rem;
 }
 
-.navbar__ {
+.navbar__div {
+    position: relative;
 }
 
-.navbar__ {
-}
+.navbar__slider {
+    height: 0.25rem/* 4px */;
+    background-color: #00ADB5;
+    border-radius: 1rem;
 
-.navbar__ {
-}
-
-.navbar__ {
-}
-
-.navbar__ {
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem/* -4px */;
+    width: 100%;
 }
