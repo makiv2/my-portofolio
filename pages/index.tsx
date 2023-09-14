@@ -24,18 +24,15 @@ const Home = () => {
             </Head>
 
             <main>
-                <div className="index__div absolute margintop120">
-
-
-                    <m.h1
-                        animate={{y: 0}}
-                        initial={{y: "100%"}}
-                        transition={{delay: 0.25, duration: 1, type: "spring"}}
-                        className="index__h1"
-                    >
-                        Matija Popovic
-                    </m.h1>
-
+                <div className="index__div">
+                        <m.h1
+                            animate={{y: 0}}
+                            initial={{y: "100%"}}
+                            transition={{delay: 0.25, duration: 1, type: "spring"}}
+                            className="index__h1"
+                        >
+                            Matija Popovic
+                        </m.h1>
                     <m.div
                         initial={{opacity: 0}}
                         animate={{opacity: 1}}
@@ -43,18 +40,16 @@ const Home = () => {
                         exit={{opacity: 0}}
                         className="index__bar bg-custom-third"
                     ></m.div>
-
-                    <m.h2
-                        initial={{opacity: 0}}
-                        animate={{opacity: 1}}
-                        transition={{delay: 0.6, duration: 0.3, ease: "easeOut"}}
-                        exit={{opacity: 0}}
-                        className="index__h2 border-main-fourth text-main-fourth"
-                    >
-                        Software developer
-                    </m.h2>
-
                 </div>
+                <m.h2
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{delay: 0.6, duration: 0.3, ease: "easeOut"}}
+                    exit={{opacity: 0}}
+                    className="index__h2 border-main-fourth text-main-fourth"
+                >
+                    Software developer
+                </m.h2>
 
 
                 <m.div

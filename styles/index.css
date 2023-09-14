@@ -3,30 +3,37 @@
 }
 
 .index__div {
-    margin: 6rem auto 0 -0.75rem;
+    margin: 6rem auto 0 -1rem;
+    position: absolute;
+    overflow: hidden;
+    padding-right: .4rem;
+    padding-left: .1rem;
 }
 
 .index__h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family: Lobster, sans-serif;
 }
 
 .index__h2 {
+    position: absolute;
+    margin-top: 9.9rem;
+
     font-size: 1.8rem;
     font-family: Luckiest Guy, sans-serif;
     line-height: 1;
 
-    transform: translate(4%, -50%);
+    transform: translateX(1%);
     border-bottom: 4px dotted #e0e0e0;
 }
 
 .index__bar {
     position: absolute;
     top: 2.6rem;
-    left: -2%;
+    left: -1%;
 
     width: 102%;
-    height: 24%;
+    height: 40%;
 
     transform-origin: center;
     z-index: -1;
