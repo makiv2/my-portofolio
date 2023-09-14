@@ -29,43 +29,47 @@ const Home = () => {
             animate={{opacity: 1}}
             transition={{duration: 0.65, ease: "easeOut"}}
             exit={{opacity: 1}}
-            className="index text-main-fourth absolute top-0 w-full h-85.7p mainBackground backgroundStyle lg:px-32 px-16"
+            className="index mainBackground"
         >
             <Head>
                 <title>Matija Popovic Portofolio</title>
                 <meta name="description" content="Made my wwww.github.com/makiv2"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/favicon.ico"/>
+                <meta name="theme-color" content="#0b0c10"/>
             </Head>
 
             <main>
-                <div className="index__div">
-                    <m.h1
-                        animate={{y: 0}}
-                        initial={{y: "100%"}}
-                        transition={{delay: 0.25, duration: 1, type: "spring"}}
-                        className="index__h1"
-                    >
-                        Matija Popovic
-                    </m.h1>
-                    <m.div
+                <div className={"index__cover"}></div>
+                <div className={"index__cover__blur"}></div>
+                <div className={"index_title__name"}>
+                    <div className="index__div">
+                        <m.h1
+                            animate={{y: 0}}
+                            initial={{y: "100%"}}
+                            transition={{delay: 0.25, duration: 1, type: "spring"}}
+                            className="index__h1"
+                        >
+                            Matija Popovic
+                        </m.h1>
+                        <m.div
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                            transition={{duration: 0.2, ease: "easeOut"}}
+                            exit={{opacity: 0}}
+                            className="index__bar bg-custom-third"
+                        ></m.div>
+                    </div>
+                    <m.h2
                         initial={{opacity: 0}}
                         animate={{opacity: 1}}
-                        transition={{duration: 0.2, ease: "easeOut"}}
+                        transition={{delay: 0.6, duration: 0.3, ease: "easeOut"}}
                         exit={{opacity: 0}}
-                        className="index__bar bg-custom-third"
-                    ></m.div>
+                        className="index__h2 border-main-fourth text-main-fourth"
+                    >
+                        Software developer
+                    </m.h2>
                 </div>
-                <m.h2
-                    initial={{opacity: 0}}
-                    animate={{opacity: 1}}
-                    transition={{delay: 0.6, duration: 0.3, ease: "easeOut"}}
-                    exit={{opacity: 0}}
-                    className="index__h2 border-main-fourth text-main-fourth"
-                >
-                    Software developer
-                </m.h2>
-
 
                 <m.div
                     initial={{opacity: 0}}

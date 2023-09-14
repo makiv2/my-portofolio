@@ -1,6 +1,6 @@
 .navbar {
     border-top-width: 4px;
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     border-style: solid;

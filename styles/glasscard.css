@@ -39,6 +39,7 @@
 }
 
 .h2content {
+  user-select: none;
   position: absolute;
   top: -10px;
   right: 20px;
@@ -48,6 +49,7 @@
 }
 
 .pcontent {
+  user-select: none;
   font-size: 1.1rem;
   color: #fff;
   font-weight: 300;
