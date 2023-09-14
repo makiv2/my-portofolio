@@ -49,29 +49,29 @@ const Navbar = () => {
       gsap.to(".colorchanger", { backgroundColor: "#00ADB5" });
 
       gsap.to(".navbar", { "--border-color": "#00ADB5" });
-      gsap.to(".sliderColor", { backgroundColor: "rgb(34, 211, 238)" });
+      gsap.to(".navbar__slider", { backgroundColor: "rgb(34, 211, 238)" });
       gsap.to(".textfootercolor", { color: "#000000" });
     } else if (e === links.current[1]) {
       gsap.to(".colorchanger", { backgroundColor: "#800000" });
 
       gsap.to(".navbar", { "--border-color": "#800000" });
-      gsap.to(".sliderColor", { backgroundColor: "#c90000" });
+      gsap.to(".navbar__slider", { backgroundColor: "#c90000" });
       gsap.to(".textfootercolor", { color: "#e0e0e0" });
     } else if (e === links.current[2]) {
       gsap.to(".colorchanger", { backgroundColor: "#c1c8e4" });
 
       gsap.to(".navbar", { "--border-color": "#8860d0" });
-      gsap.to(".sliderColor", { backgroundColor: "#8860d0" });
+      gsap.to(".navbar__slider", { backgroundColor: "#8860d0" });
       gsap.to(".textfootercolor", { color: "#000000" });
     }
   };
 
   return (
-      <nav className="navbar bordercolorchanger">
-        <ul className="navbar__ul text-main-fourth navbotborder">
+      <nav className="navbar">
+        <ul className="navbar__ul text-main-fourth">
           <div
             ref={(el) => (links.current[0] = el)}
-            className="nav-item relative"
+            className="navbar__div"
           >
             <li>
               <Link onClick={() => handleClick(links.current[0])} href="/">
@@ -80,13 +80,13 @@ const Navbar = () => {
             </li>
             <div
               ref={activeNav}
-              className="active-nav h-1 sliderColor rounded-2xl absolute left-0 -bottom-1 w-full"
+              className="navbar__slider"
             ></div>
           </div>
 
           <div
             ref={(el) => (links.current[1] = el)}
-            className="nav-item relative"
+            className="navbar__div"
           >
             <li>
               <Link
@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
           <div
             ref={(el) => (links.current[2] = el)}
-            className="nav-item relative"
+            className="navbar__div"
           >
             <li>
               <Link
