@@ -1,5 +1,4 @@
 .index {
-
 }
 
 .index__div {
@@ -39,27 +38,35 @@
     z-index: -1;
 }
 
-.meImage {
-    right: 16vw;
-    top: 30vh;
-    width: 24rem;
+.index__image {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13.5rem;
+    width: 17rem;
     border: 5px solid #e0e0e0;
 }
 
-
-.meDots {
-    right: 18vw;
-    top: 32vh;
-    width: 24rem;
+.index__dots {
+    position: absolute;
+    right: 1rem;
+    width: 16rem;
+    z-index: -20;
+    margin-top: 18rem;
 }
 
-
-.mainGlassCard {
-    top: 34vh;
-    width: 35%;
-    left: 5vw;
+.index__glassCard {
+    position: absolute;
+    margin-top: 28rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18rem;
+    padding-bottom: 12rem;
 }
-
 
 @media (max-width: 1024px) {
     .meImage {

@@ -21,6 +21,26 @@ a {
     text-decoration: none;
 }
 
+.global__guard__min {
+    display: none;
+}
+
+/* Guard against 375px and smaller devices*/
+@media (max-width: 374px) {
+    .global__guard__min {
+        display: block;
+    }
+    .global__guard__max {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) {
+    .global__guard__min {
+        display: none;
+    }
+}
+
 
 /*.barUnderName {*/
 /*    position: absolute;*/
@@ -60,7 +80,12 @@ a {
     }
 }
 
+
+
 /* Utility classes */
+
+
+
 
 /* xs */
 /* @media (min-width: 475px) {} */
