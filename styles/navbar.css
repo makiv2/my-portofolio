@@ -20,7 +20,7 @@
 
 .navbar__ul {
     font-family: Rowdies, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     display: flex;
     flex-direction: row;
@@ -39,12 +39,37 @@
 }
 
 .navbar__slider {
-    height: 0.25rem/* 4px */;
+    height: 0.25rem /* 4px */;
     background-color: #00ADB5;
     border-radius: 1rem;
 
     position: absolute;
     left: 0;
-    bottom: -0.25rem/* -4px */;
+    bottom: -0.25rem /* -4px */;
     width: 100%;
 }
+
+
+/* Utility classes */
+
+/* xs */
+@media (min-width: 475px) {
+    .navbar__ul {
+        font-size: 1.25rem;
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/*@media (min-width: 1024px) {}*/
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
