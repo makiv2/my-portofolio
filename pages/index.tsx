@@ -39,7 +39,7 @@ const Home = () => {
                 <meta name="theme-color" content="#0b0c10"/>
             </Head>
 
-            <main>
+            <main className={"overflow-hidden"}>
                 <div className={"index__cover"}></div>
                 <div className={"index__cover__blur"}></div>
                 <div className={"index_title__name"}>
@@ -101,7 +101,7 @@ const Home = () => {
                     exit={{opacity: 0}}
                     className="absolute index__glassCard"
                 >
-                    <GlassCard text={content} backgroundText={backgroundText}></GlassCard>
+                    {/*<GlassCard text={content} backgroundText={backgroundText}></GlassCard>*/}
                 </m.div>
                 <div></div>
             </main>
