@@ -1,5 +1,5 @@
-import StaticMain from "../components/StaticMain";
-import AnimatedMain from "../components/AnimatedMain";
+import StaticMain from "../components/Mobile/StaticMain";
+import AnimatedMain from "../components/Pc/AnimatedMain";
 
 
 const Home = () => {

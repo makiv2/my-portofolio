@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {motion as m} from "framer-motion";
-import GlassCard from "../components/GlassCard";
+import GlassCard from "../GlassCard";
 import Image from "next/image";
 import {useEffect, useState} from "react";
 
