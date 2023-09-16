@@ -14,14 +14,11 @@ import "../styles/opencard.css";
 export default function App({Component, pageProps, router}: AppProps) {
     return (
         <>
-            <div className={"global__guard__min"}>You can not view this site</div>
-            <div className={"global__guard__max"}>
-                <Navbar/>
-                <AnimatePresence initial={true} mode={"sync"}>
-                    <Component key={router.pathname} {...pageProps} />
-                </AnimatePresence>
-                <Footer/>
-            </div>
+            <Navbar/>
+            <AnimatePresence initial={true} mode={"sync"}>
+                <Component key={router.pathname} {...pageProps} />
+            </AnimatePresence>
+            <Footer/>
         </>
     );
 }
