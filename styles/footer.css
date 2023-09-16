@@ -24,7 +24,43 @@
 }
 
 .socials__text {
-    letter-spacing: 0.05rem;
-    font-family: Lobster, sans-serif;
     display: none;
 }
+
+
+/* Utility classes */
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .socials__tags {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
+        margin: 1.25rem 0 1rem 0;
+    }
+
+    .socials__text {
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        /* TODO change font asap */
+        letter-spacing: -0.01rem;
+        font-size: 1rem;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

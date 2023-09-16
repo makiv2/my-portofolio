@@ -12,7 +12,7 @@ const Socials = () => {
             <a className="socials__tags" target="_blank" href="mailto:matijap@stud.ntnu.no" rel="noreferrer">
                 <Image src={mail} alt="Mail: " width={25} height={25}/>
                 <div className={"socials__text"}>
-                    &nbsp;matijap@stud.ntnu.no
+                    &nbsp;Matijap@stud.ntnu.no
                 </div>
             </a>
             <a className="socials__tags" target="_blank" href="https://www.github.com/makiv2" rel="noreferrer">
@@ -20,19 +20,19 @@ const Socials = () => {
                     <Image src={github} alt="Github: " width={25} height={25}/>
                 </div>
                 <div className={"socials__text"}>
-                    &nbsp;github.com/makiv2
+                    &nbsp;Github.com/makiv2
                 </div>
             </a>
             <a className="socials__tags" target="_blank" href="https://www.twitter.com" rel="noreferrer">
                 <Image src={twitter} alt="Twitter: " width={25} height={25}/>
                 <div className={"socials__text"}>
-                    &nbsp;twitter.com/????
+                    &nbsp;Twitter.com/????
                 </div>
             </a>
             <a className="socials__tags" target="_blank" href="www.linkedin.com/in/matija-popovic00" rel="noreferrer">
                 <Image src={linkedin} alt="Linkedin: " width={25} height={25}/>
                 <div className={"socials__text"}>
-                    &nbsp;/in/matija-popovic
+                    &nbsp;/in/MatijaPopovic
                 </div>
             </a>
         </div>
