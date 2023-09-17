@@ -1,17 +1,33 @@
-.project__background {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    z-index: -99;
+.project__main {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
+
+.project__top {
+    height: 5rem;
+}
+
+.project__h1 {
+    font-size: 3.2rem;
+    font-family: Rowdies, sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(224 224 224 / var(--tw-text-opacity));
+    transform: translateX(-1.5%);
+}
+
+.project__bar {
+    position: absolute;
+    top: 2.7rem;
+    left: -4%;
+    width: 109%;
+    height: 40%;
+    transform-origin: center;
+    z-index: -97;
+    background-color: #c90000;
+}
+
+/*c90000*/
+/*800000*/

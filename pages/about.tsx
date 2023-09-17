@@ -2,7 +2,7 @@ import StaticExperience from "../components/Mobile/StaticExperience";
 import AnimatedExperience from "../components/Pc/AnimatedExperience";
 
 
-function Experience() {
+function About() {
   return (
       <>
         <div className={"guard_mobile"}>
@@ -15,4 +15,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default About;

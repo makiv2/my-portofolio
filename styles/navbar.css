@@ -38,6 +38,10 @@
     position: relative;
 }
 
+.navbar__link {
+    color: #e0e0e0;
+}
+
 .navbar__slider {
     height: 0.25rem /* 4px */;
     background-color: #00ADB5;

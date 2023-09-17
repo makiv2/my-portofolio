@@ -11,9 +11,9 @@ const StaticMain = () => {
     return (
         <>
             {/* Fixed elements */}
-            <div className={"mainBackground index__background"}></div>
-            <div className={"index__cover"}></div>
-            <div className={"index__cover__blur"}></div>
+            <div className={"mainBackground global__background"}></div>
+            <div className={"global__cover"}></div>
+            <div className={"global__cover__blur"}></div>
             {/* End of fixed elements */}
 
             <Head>

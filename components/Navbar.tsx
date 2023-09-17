@@ -25,10 +25,13 @@ const Navbar = () => {
       if (link === e) {
         if (e === links.current[0]) {
           gsap.to(link, { color: "rgb(34, 211, 238)" });
+          gsap.to(".navbar__link", { color: "#e0e0e0" });
         } else if (e === links.current[1]) {
           gsap.to(link, { color: "#c90000" });
+          gsap.to(".navbar__link", { color: "#e0e0e0" });
         } else if (e === links.current[2]) {
           gsap.to(link, { color: "#8860d0" });
+          gsap.to(".navbar__link", { color: "#2f2f2f" });
         }
       }
     });
@@ -74,7 +77,7 @@ const Navbar = () => {
             className="navbar__div"
           >
             <li>
-              <Link onClick={() => handleClick(links.current[0])} href="/">
+              <Link className={"navbar__link"} onClick={() => handleClick(links.current[0])} href="/">
                 Main
               </Link>
             </li>
@@ -89,7 +92,7 @@ const Navbar = () => {
             className="navbar__div"
           >
             <li>
-              <Link
+              <Link className={"navbar__link"}
                 onClick={() => handleClick(links.current[1])}
                 href="/projects"
               >
@@ -102,9 +105,9 @@ const Navbar = () => {
             className="navbar__div"
           >
             <li>
-              <Link
+              <Link className={"navbar__link"}
                 onClick={() => handleClick(links.current[2])}
-                href="/experience"
+                href="/about"
               >
                 About
               </Link>
