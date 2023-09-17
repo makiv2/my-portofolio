@@ -106,7 +106,7 @@ const Navbar = () => {
                 onClick={() => handleClick(links.current[2])}
                 href="/experience"
               >
-                Experience
+                About
               </Link>
             </li>
           </div>
