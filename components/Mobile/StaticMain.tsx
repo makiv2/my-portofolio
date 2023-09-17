@@ -50,6 +50,11 @@ const StaticMain = () => {
                     />
                 </div>
 
+                <div className={"global__card"}>
+                    <p className={"global__card__p"}>A glass-like card to demonstrate the <strong>Glassmorphism UI design</strong> trend.</p>
+                    <p className={"global__card__footer"}>Summary</p>
+                </div>
+
 
             </main>
         </>

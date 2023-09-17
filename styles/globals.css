@@ -10,7 +10,6 @@
 @tailwind utilities;
 
 html,
-
 body {
 }
 
@@ -43,21 +42,51 @@ a {
 .global__background {
     position: fixed;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
 
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100lvh;
     width: 100vw;
 
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     z-index: -99;
+    white-space: nowrap;
 }
 
+/* Global Card */
+.global__card {
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 35px;
+    margin-top: 30px;
+    margin-bottom: 5rem;
+
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+}
+
+.global__card__footer {
+    font-size: 0.65em;
+    color: #446;
+}
+
+.global__card__p {
+    margin: 0;
+}
+
+.global__card__p:not(:last-child) {
+    margin-bottom: 1.5em;
+}
 
 /*.barUnderName {*/
 /*    position: absolute;*/
