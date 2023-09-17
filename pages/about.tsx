@@ -1,15 +1,15 @@
-import StaticExperience from "../components/Mobile/StaticExperience";
-import AnimatedExperience from "../components/Pc/AnimatedExperience";
+import StaticAbout from "../components/Mobile/StaticAbout";
+import AnimatedAbout from "../components/Pc/AnimatedAbout";
 
 
 function About() {
   return (
       <>
         <div className={"guard_mobile"}>
-          <StaticExperience></StaticExperience>
+          <StaticAbout></StaticAbout>
         </div>
         <div className={"guard_pc"}>
-          <AnimatedExperience></AnimatedExperience>
+          <AnimatedAbout></AnimatedAbout>
         </div>
       </>
   );
