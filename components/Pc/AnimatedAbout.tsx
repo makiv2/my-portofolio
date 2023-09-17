@@ -1,6 +1,6 @@
 import { motion as m } from "framer-motion";
 
-function AnimatedExperience() {
+function AnimatedAbout() {
     return (
         <m.div
             initial={{ y: "100%" }}
@@ -21,4 +21,4 @@ function AnimatedExperience() {
     );
 }
 
-export default AnimatedExperience;
+export default AnimatedAbout;

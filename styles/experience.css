@@ -1,6 +1,37 @@
-.experience__cover {
+.about__cover {
     background-color: #c1c8e4;
 }
-.experience__cover_blur {
+.about__cover_blur {
     background: linear-gradient(to bottom, #c1c8e4, transparent 1rem);
+}
+
+.about__main {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about__top {
+    height: 5rem;
+}
+
+.about__h1 {
+    font-size: 3.2rem;
+    font-family: Rowdies, sans-serif;
+    --tw-text-opacity: 1;
+    color: #232323;
+    transform: translateX(-1.5%);
+}
+
+.about__bar {
+    position: absolute;
+    top: 2.7rem;
+    left: -4%;
+    width: 109%;
+    height: 40%;
+    transform-origin: center;
+    z-index: -97;
+    background-color: #c1c8e4;
 }
