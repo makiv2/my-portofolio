@@ -4,10 +4,11 @@ import Footer from "../components/Footer";
 import {AnimatePresence} from "framer-motion";
 
 import "../styles/globals.css";
+import "../styles/index.css";
+import "../styles/project.css";
 import "../styles/footer.css";
 import "../styles/navbar.css";
 import "../styles/backgrounds.css";
-import "../styles/index.css";
 import "../styles/glasscard.css";
 import "../styles/opencard.css";
 
@@ -15,9 +16,15 @@ export default function App({Component, pageProps, router}: AppProps) {
     return (
         <>
             <Navbar/>
-            <AnimatePresence initial={true} mode={"sync"}>
+            <div className={"guard_pc"}>
+                <AnimatePresence initial={true} mode={"sync"}>
+                    <Component key={router.pathname} {...pageProps} />
+                </AnimatePresence>
+            </div>
+            <div className={"guard_mobile"}>
                 <Component key={router.pathname} {...pageProps} />
-            </AnimatePresence>
+            </div>
+
             <Footer/>
         </>
     );
