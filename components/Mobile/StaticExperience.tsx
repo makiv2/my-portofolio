@@ -1,17 +1,20 @@
+import Head from "next/head";
+
 function StaticExperience() {
     return (
-        <div
-            className="text-main-fourth absolute top-0 w-full h-85.7p experienceBackground backgroundStyle lg:px-32 px-16"
-        >
+        <>
+            {/* Fixed elements */}
+            <div className={"experienceBackground global__background"}></div>
+            <div className={"global__cover  experience__cover"}></div>
+            <div className={"global__cover__blur experience__cover_blur"}></div>
+            {/* End of fixed elements */}
+            <Head>
+                <meta name="theme-color" content="#0b0c10"/>
+            </Head>
             <main>
-                <div className="mt-80 absolute left-32">
-                    <h1 className="text-6xl text-center lg:text-left lg:text-8xl px-15 font-rowdies">
-                        Experience //TODO
-                    </h1>
-                </div>
-
+                <h1>Experience //TODO</h1>
             </main>
-        </div>
+        </>
     );
 }
 

@@ -1,0 +1,6 @@
+.experience__cover {
+    background-color: #c1c8e4;
+}
+.experience__cover_blur {
+    background: linear-gradient(to bottom, #c1c8e4, transparent 1rem);
+}
