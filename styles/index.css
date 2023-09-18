@@ -241,86 +241,9 @@
 
 /* lg */
 /*@media (min-width: 1024px) {*/
-/*    body {*/
-/*        max-width: 100vw;*/
-/*        overflow-x: hidden;*/
-/*        overflow-y: hidden;*/
-/*    }*/
-/*}*/
 
 /* xl */
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
-
-
-.index_title__name {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.index__div {
-    margin: 6rem auto 0 auto;
-    position: absolute;
-    overflow: hidden;
-    padding-right: .4rem;
-    padding-left: .1rem;
-}
-
-.index__glassCard {
-    position: absolute;
-    margin-top: 28rem;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 18rem;
-    padding-bottom: 6rem;
-}
-
-@media (max-width: 1024px) {
-    .meImage {
-        top: 38vh;
-    }
-
-    .meDots {
-        top: 38vh;
-    }
-}
-
-
-@media (min-width: 1025px) and  (max-width: 1440px) {
-    .meImage {
-        top: 40%;
-        width: 30%;
-    }
-
-    .meDots {
-        top: 40%;
-        width: 30%;
-    }
-}
-
-
-@media (max-width: 1920px) {
-    .meImage {
-        right: 12%;
-    }
-
-    .meDots {
-        right: 14%;
-    }
-}
-
-
-@media (min-width: 1920px) {
-    .meImage {
-        width: 20%;
-    }
-
-    .meDots {
-        width: 20%;
-    }
-}

@@ -44,7 +44,7 @@ next-env.d.ts
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# pageContents Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #

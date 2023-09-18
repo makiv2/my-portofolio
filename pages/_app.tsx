@@ -17,14 +17,14 @@ export default function App({Component, pageProps, router}: AppProps) {
     return (
         <>
             <Navbar/>
-            <div className={"guard_pc"}>
-                <AnimatePresence initial={true} mode={"sync"}>
-                    <Component key={router.pathname} {...pageProps} />
-                </AnimatePresence>
-            </div>
-            <div className={"guard_mobile"}>
+            {/*<div className={"guard_pc"}>*/}
+            {/*    <AnimatePresence initial={true} mode={"sync"}>*/}
+            {/*        <Component key={router.pathname} {...pageProps} />*/}
+            {/*    </AnimatePresence>*/}
+            {/*</div>*/}
+            {/*<div className={"guard_mobile"}>*/}
                 <Component key={router.pathname} {...pageProps} />
-            </div>
+            {/*</div>*/}
 
             <Footer/>
         </>
