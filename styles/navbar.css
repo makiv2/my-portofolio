@@ -56,6 +56,12 @@
 
 /* Utility classes */
 
+/* 3xs */
+/* @media (min-width: 375px) {} */
+
+/* 2xs */
+/* @media (min-width: 425px) {} */
+
 /* xs */
 @media (min-width: 475px) {
     .navbar__ul {
@@ -67,13 +73,30 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+    .navbar__ul {
+        font-size: 1.5rem;
+    }
+}
 
 /* lg */
-/*@media (min-width: 1024px) {}*/
+/* @media (min-width: 1024px) {} */
 
 /* xl */
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
+/* @media (min-width: 1440px) {} */
+
+/* 3xl */
 /* @media (min-width: 1536px) {} */
+
+/* 4xl */
+/* @media (min-width: 1728px) {} */
+
+/* 5xl */
+/* @media (min-width: 1920px) {} */
+
+/* 6xl */
+/* @media (min-width: 2500px) {} */
+
