@@ -414,10 +414,10 @@
     }
 
     .index__card {
-        max-width: 675px;
+        max-width: 630px;
         height: 380px;
 
-        margin-left: 10%;
+        margin-left: 11.5%;
 
         padding: 3.25rem 4.75rem;
     }
