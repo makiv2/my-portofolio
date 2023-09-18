@@ -50,10 +50,12 @@ const StaticMain = () => {
                     />
                 </div>
 
-                <div className={"global__card"}>
-                    <p className={"global__card__p"}>A glass-like card to demonstrate the <strong>Glassmorphism UI design</strong> trend.</p>
-                    <p className={"global__card__footer"}>Summary</p>
+                <div className={"index__card"}>
+                    <p className={"index__card__p"}>I am currently in my final year pursuing an MSc in Communication Technology and Digital Security.</p>
+                    <p className={"index__card__footer"}><strong>NTNU</strong></p>
                 </div>
+
+                <div className={"index__bottom"}></div>
 
 
             </main>
