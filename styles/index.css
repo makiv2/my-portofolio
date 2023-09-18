@@ -201,32 +201,45 @@
         top: 3.5rem;
     }
 
-    .index__text__image__container {
-        display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     .index__text__container {
         margin: 0 auto 0 11.5%;
     }
 
+    .index__image__container {
+        margin-right: 11.5%;
+    }
+
+    .index__text__image__container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+        width: 100%;
+        align-items: center;
+    }
+
     .index__image {
-        width: 20rem;
+        width: 35vw;
+    }
+
+    .index__dots {
+        width: 34vw;
     }
 
     .index__card {
-        max-width: 325px;
+        height: 26.75vw;
+        max-width: 35vw;
 
-        border: 2px solid rgba(34, 211, 238, 0.25);
+        margin-right: auto;
+
+        border: 2px solid rgba(34, 211, 238, 0.4);
         border-radius: .75rem;
         background-color: rgba(34, 211, 238, 0.2);
-        box-shadow: 0 0 10px 2px rgba(34, 211, 238, 0.6);
+        /*box-shadow: 0 0 10px 2px rgba(34, 211, 238, 0.6);*/
+        box-shadow: 0 0 20px rgba(34, 211, 238, 0.5), 0 0 6px rgba(34, 211, 238, 0.4), 0 0 100px -10px rgba(34, 211, 238, 0.2);
 
-        padding: 2.88rem 1.5rem;
-        transform: translateY(2px);
+        padding: 1.15rem 2rem;
+        transform: translateY(4px);
+        margin-left: 11.5%;
     }
 
     .index__card__p {
@@ -240,10 +253,180 @@
 }
 
 /* lg */
-/*@media (min-width: 1024px) {*/
+@media (min-width: 1024px) {
+
+    .index__card {
+        padding: 2.25rem 2rem;
+        max-width: 24rem;
+        height: 17rem;
+    }
+
+    .index__card__p {
+        font-size: 1.25rem;
+    }
+
+    .index__card__footer {
+        font-size: 1.5rem;
+    }
+
+    .index__image {
+        max-width: 22.5rem;
+    }
+
+    .index__dots {
+        max-width: 21.5rem;
+    }
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
+@media (min-width: 1440px) {
+    .index__main {
+        gap: 6rem;
+    }
+
+    .index__h1 {
+        font-size: 5.5rem;
+    }
+
+    .index__h2 {
+        font-size: 2.75rem;
+        top: 6.75rem;
+        left: 1rem;
+    }
+
+    .index__bar {
+        top: 4.5rem;
+    }
+
+    .index__image {
+        width: 23rem;
+    }
+
+    .index__dots {
+        width: 22rem;
+        transform: translate(6.0rem, 0.5rem);
+    }
+
+    .index__card {
+        max-width: 500px;
+        height: 275px;
+
+        padding: 2rem 3rem;
+    }
+
+    .index__card__p {
+        font-size: 1.25rem;
+    }
+
+    .index__card__footer {
+        font-size: 1.5rem;
+    }
+}
+
+/* 3xl */
 /* @media (min-width: 1536px) {} */
+
+
+/* 4xl */
+@media (min-width: 1728px) {
+    .index__main {
+        gap: 7rem;
+    }
+
+    .index__h1 {
+        font-size: 6.5rem;
+    }
+
+    .index__h2 {
+        font-size: 3.4rem;
+        top: 8rem;
+    }
+
+    .index__bar {
+        top: 5.5rem;
+    }
+
+    .index__image {
+        max-width: 28rem;
+        width: 28rem;
+    }
+
+    .index__dots {
+        max-width: 27rem;
+        width: 27rem;
+        transform: translate(7.5rem, 0.5rem);
+    }
+
+    .index__card {
+        max-width: 575px;
+        height: 330px;
+
+        padding: 3rem 3.25rem;
+    }
+
+    .index__card__p {
+        font-size: 1.5rem;
+    }
+
+    .index__card__footer {
+        font-size: 2rem;
+    }
+}
+
+
+/* 5xl */
+@media (min-width: 1920px) {
+
+    .index__main {
+        gap: 7.5rem;
+    }
+
+    .index__h1 {
+        font-size: 7rem;
+    }
+
+    .index__h2 {
+        font-size: 3.6rem;
+        top: 8.5rem;
+    }
+
+    .index__bar {
+        top: 6rem;
+        height: 36%;
+    }
+
+    .index__image {
+        width: 32rem;
+        max-width: 32rem;
+    }
+
+    .index__image__container {
+        margin-right: 18%;
+    }
+
+    .index__dots {
+        width: 31rem;
+        max-width: 31rem;
+        transform: translate(8rem, 0.5rem);
+    }
+
+    .index__card {
+        max-width: 675px;
+        height: 380px;
+
+        margin-left: 10%;
+
+        padding: 3.25rem 4.75rem;
+    }
+
+    .index__card__p {
+        font-size: 1.75rem;
+    }
+
+    .index__card__footer {
+        font-size: 2.5rem;
+    }
+}
