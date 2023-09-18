@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import "../styles/globals.css";
 import "../styles/index.css";
 import "../styles/project.css";
-import "../styles/experience.css";
+import "../styles/about.css";
 import "../styles/footer.css";
 import "../styles/navbar.css";
 import "../styles/backgrounds.css";
