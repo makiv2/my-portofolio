@@ -430,3 +430,56 @@
         font-size: 2.5rem;
     }
 }
+
+/* 5xl */
+@media (min-width: 2500px) {
+
+    .index__main {
+        gap: 12rem;
+    }
+
+    .index__h1 {
+        font-size: 9rem;
+    }
+
+    .index__h2 {
+        font-size: 4.75rem;
+        top: 11rem;
+    }
+
+    .index__bar {
+        top: 7.6rem;
+    }
+
+    .index__image {
+        width: 42rem;
+        max-width: 42rem;
+    }
+
+    .index__image__container {
+        margin-right: 18%;
+    }
+
+    .index__dots {
+        width: 41rem;
+        max-width: 41rem;
+        transform: translate(11rem, 0.5rem);
+    }
+
+    .index__card {
+        max-width: 800px;
+        height: 490px;
+
+        margin-left: 11.5%;
+
+        padding: 4rem 5.75rem;
+    }
+
+    .index__card__p {
+        font-size: 2rem;
+    }
+
+    .index__card__footer {
+        font-size: 3rem;
+    }
+}
