@@ -202,7 +202,7 @@
     }
 
     .index__text__container {
-        margin: 0 auto 0 11.5%;
+        margin: 0 auto 0 9%;
     }
 
     .index__image__container {
@@ -239,7 +239,7 @@
 
         padding: 1.15rem 2rem;
         transform: translateY(4px);
-        margin-left: 11.5%;
+        margin-left: 9%;
     }
 
     .index__card__p {
@@ -333,7 +333,7 @@
 /* 4xl */
 @media (min-width: 1728px) {
     .index__main {
-        gap: 7rem;
+        gap: 4.5rem;
     }
 
     .index__h1 {
@@ -381,26 +381,26 @@
 @media (min-width: 1920px) {
 
     .index__main {
-        gap: 7.5rem;
+        gap: 5rem;
     }
 
     .index__h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .index__h2 {
-        font-size: 3.6rem;
-        top: 8.5rem;
+        font-size: 2.9rem;
+        top: 7.8rem;
     }
 
     .index__bar {
-        top: 6rem;
-        height: 36%;
+        top: 5.25rem;
+        height: 38%;
     }
 
     .index__image {
-        width: 32rem;
-        max-width: 32rem;
+        width: 28rem;
+        max-width: 28rem;
     }
 
     .index__image__container {
@@ -408,26 +408,26 @@
     }
 
     .index__dots {
-        width: 31rem;
-        max-width: 31rem;
-        transform: translate(8rem, 0.5rem);
+        width: 27rem;
+        max-width: 27rem;
+        transform: translate(7.5rem, 0.5rem);
     }
 
     .index__card {
-        max-width: 630px;
-        height: 380px;
+        max-width: 550px;
+        height: 325px;
 
-        margin-left: 11.5%;
+        margin-left: 9%;
 
-        padding: 3.25rem 4.75rem;
+        padding: 2rem 3.5rem;
     }
 
     .index__card__p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .index__card__footer {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -435,25 +435,25 @@
 @media (min-width: 2500px) {
 
     .index__main {
-        gap: 12rem;
+        gap: 5.5rem;
     }
 
     .index__h1 {
-        font-size: 9rem;
+        font-size: 7rem;
     }
 
     .index__h2 {
-        font-size: 4.75rem;
-        top: 11rem;
+        font-size: 3.4rem;
+        top: 9rem;
     }
 
     .index__bar {
-        top: 7.6rem;
+        top: 6rem;
     }
 
     .index__image {
-        width: 42rem;
-        max-width: 42rem;
+        width: 38rem;
+        max-width: 38rem;
     }
 
     .index__image__container {
@@ -461,18 +461,16 @@
     }
 
     .index__dots {
-        width: 41rem;
-        max-width: 41rem;
-        transform: translate(11rem, 0.5rem);
+        width: 37rem;
+        max-width: 37rem;
+        transform: translate(10rem, 0.5rem);
     }
 
     .index__card {
         max-width: 800px;
-        height: 490px;
+        height: 380px;
 
-        margin-left: 11.5%;
-
-        padding: 4rem 5.75rem;
+        padding: 3rem 4rem;
     }
 
     .index__card__p {
@@ -480,6 +478,6 @@
     }
 
     .index__card__footer {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }

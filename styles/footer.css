@@ -78,22 +78,22 @@
 /* 5xl */
 @media (min-width: 1920px) {
     .socials__text {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
 
     .socials__tags {
-        margin: 2.75rem 0 2.5rem 0;
+        margin: 2rem 0 1.75rem 0;
     }
 }
 
 /* 6xl */
 @media (min-width: 2500px) {
     .socials__text {
-        font-size: 1.35rem;
+        font-size: 1.25rem;
     }
 
     .socials__tags {
-        margin: 3.25rem 0 3rem 0;
+        margin: 2.5rem 0 2rem 0;
     }
 }
 
