@@ -63,4 +63,38 @@
 /* @media (min-width: 1280px) {} */
 
 /* 2xl */
+@media (min-width: 1440px) {
+    .socials__tags {
+        margin: 1.75rem 0 1.5rem 0;
+    }
+}
+
+/* 3xl */
 /* @media (min-width: 1536px) {} */
+
+/* 4xl */
+/* @media (min-width: 1728px) {} */
+
+/* 5xl */
+@media (min-width: 1920px) {
+    .socials__text {
+        font-size: 1.25rem;
+    }
+
+    .socials__tags {
+        margin: 2.75rem 0 2.5rem 0;
+    }
+}
+
+/* 6xl */
+@media (min-width: 2500px) {
+    .socials__text {
+        font-size: 1.35rem;
+    }
+
+    .socials__tags {
+        margin: 3.25rem 0 3rem 0;
+    }
+}
+
+
