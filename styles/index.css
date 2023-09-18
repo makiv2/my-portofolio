@@ -1,17 +1,21 @@
 .index__main {
     display: flex;
-    gap: 1rem;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 3rem;
 }
 
 .index__top {
-    height: 5rem;
+    height: 2rem;
 }
 
 .index__bottom {
-    height: 5rem;
+    height: 1.5rem;
+}
+
+.index__text__container {
+    position: relative;
 }
 
 .index__h1 {
@@ -23,10 +27,13 @@
 }
 
 .index__h2 {
-    font-size: 1.8rem;
+    position: absolute;
+    top: 4.1rem;
+    left: .5rem;
+
+    font-size: 1.7rem;
     font-family: Luckiest Guy, sans-serif;
     line-height: 1;
-    transform: translate(3%, -1.7rem);
     border-bottom: 4px dotted #e0e0e0;
 }
 
@@ -41,6 +48,7 @@
 }
 
 .index__image__container {
+    margin-top: .5rem;
     position: relative;
 }
 
@@ -72,11 +80,10 @@
 
     padding: 0.75rem 1rem;
 
-    margin-top: .8rem;
-
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: .5rem;
-    background-color: rgba(255, 255, 255, 0.16);
+    /*background-color: rgba(255, 255, 255, 0.16);*/
+    background-color: rgba(34, 211, 238, 0.2);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
     backdrop-filter: blur(15px);
@@ -95,6 +102,10 @@
     color: rgba(255, 255, 255, 0.75);
 }
 
+.index__text__image__container {
+    display: contents;
+}
+
 
 /* Utility classes */
 
@@ -103,6 +114,18 @@
     .index__dots {
         transform: translate(3rem, 1rem);
     }
+
+    .index__h2 {
+        left: .65rem;
+        width: 104%;
+
+        display: inline-block;
+
+        font-size: 1.8rem;
+        font-family: Luckiest Guy, sans-serif;
+        line-height: 1;
+        border-bottom: 4px dotted #e0e0e0;
+    }
 }
 
 /* 2xs */
@@ -110,16 +133,111 @@
     .index__dots {
         transform: translate(4rem, 1rem);
     }
+
+    .index__image {
+        width: 19rem;
+    }
+
+    .index__dots {
+        width: 18rem;
+    }
+
+    .index__card {
+        max-width: 19.5rem;
+        padding: 1.15rem 1rem;
+    }
+
+    .index__card__p {
+        font-family: Montserrat, sans-serif;
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    .index__card__footer {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .index__main {
+        gap: 4rem;
+    }
+
+    .index__h1 {
+        font-size: 3.7rem;
+    }
+
+    .index__h2 {
+        font-size: 2.075rem;
+    }
 }
 
 /* xs */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {
+
+
+}
 
 /* sm */
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+
+    .index__main {
+        gap: 4.75rem;
+    }
+
+    .index__h1 {
+        font-size: 4.25rem;
+    }
+
+    .index__h2 {
+        font-size: 2.25rem;
+        width: auto;
+        top: 5.25rem;
+    }
+
+    .index__bar {
+        top: 3.5rem;
+    }
+
+    .index__text__image__container {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .index__text__container {
+        margin: 0 auto 0 11.5%;
+    }
+
+    .index__image {
+        width: 20rem;
+    }
+
+    .index__card {
+        max-width: 325px;
+
+        border: 2px solid rgba(34, 211, 238, 0.25);
+        border-radius: .75rem;
+        background-color: rgba(34, 211, 238, 0.2);
+        box-shadow: 0 0 10px 2px rgba(34, 211, 238, 0.6);
+
+        padding: 2.88rem 1.5rem;
+        transform: translateY(2px);
+    }
+
+    .index__card__p {
+        font-size: 1rem;
+    }
+
+    .index__card__footer {
+        margin-top: 1.25rem;
+        font-size: 1.25rem;
+    }
+}
 
 /* lg */
 /*@media (min-width: 1024px) {*/
@@ -135,17 +253,6 @@
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
-
-
-
-
-
-
-
-
-
-
-
 
 
 .index_title__name {

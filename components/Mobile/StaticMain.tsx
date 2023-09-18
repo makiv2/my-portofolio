@@ -28,33 +28,38 @@ const StaticMain = () => {
 
                 <div className={"index__top"}></div>
 
-                <h1 className={"index__h1"}>Matija Popovic
-                    <div className={"index__bar bg-custom-third"}></div>
-                </h1>
-                <h2 className={"index__h2 border-main-fourth text-main-fourth"}>Software developer</h2>
-
-                <div className={"index__image__container"}>
-                    <Image
-                        className="index__image"
-                        src="/image_me.JPG"
-                        alt="Picture of the author"
-                        width={500}
-                        height={500}
-                    />
-                    <Image
-                        src="/dots1.png"
-                        alt="Dots"
-                        width={500}
-                        height={500}
-                        className="index__dots"
-                    />
+                <div className={"index__text__container"}>
+                    <h1 className={"index__h1"}>Matija Popovic
+                        <div className={"index__bar bg-custom-third"}></div>
+                    </h1>
+                    <h2 className={"index__h2 border-main-fourth text-main-fourth"}>Software developer</h2>
                 </div>
 
-                <div className={"index__card"}>
-                    <p className={"index__card__p"}>I am currently in my final year pursuing an MSc in Communication Technology and Digital Security.</p>
-                    <p className={"index__card__footer"}><strong>NTNU</strong></p>
-                </div>
 
+                <div className={"index__text__image__container"}>
+                    <div className={"index__image__container"}>
+                        <Image
+                            className="index__image"
+                            src="/image_me.JPG"
+                            alt="Picture of the author"
+                            width={500}
+                            height={500}
+                        />
+                        <Image
+                            src="/dots1.png"
+                            alt="Dots"
+                            width={500}
+                            height={500}
+                            className="index__dots"
+                        />
+                    </div>
+
+                    <div className={"index__card"}>
+                        <p className={"index__card__p"}>I am currently in my final year pursuing an MSc in Communication
+                            Technology and Digital Security.</p>
+                        <p className={"index__card__footer"}><strong>NTNU</strong></p>
+                    </div>
+                </div>
                 <div className={"index__bottom"}></div>
 
 
