@@ -28,6 +28,8 @@ const Navbar = () => {
             gsap.to(".navbar", {"--border-color": "#8860d0"});
             gsap.to(".navbar__slider", {backgroundColor: "#8860d0"});
             gsap.to(".textfootercolor", {color: "#000000"});
+            gsap.to(".navbar__link__main", {color: "#232323"});
+            gsap.to(".navbar__link__projects", {color: "#232323"});
         }
     }, []);
 
@@ -61,18 +63,19 @@ const Navbar = () => {
                     gsap.to(".navbar__link__projects", {color: "#c90000"});
                 } else if (e === links.current[2]) {
                     gsap.to(".navbar__link__about", {color: "#8860d0"});
+                    gsap.to(".navbar__link__main", {color: "#232323"});
+                    gsap.to(".navbar__link__projects", {color: "#232323"});
                 }
             }
         });
 
-        //move line
+        //Move line
         const state = Flip.getState(activeNav.current);
 
         if (activeNav.current !== null) {
             e.appendChild(activeNav.current);
         }
         Flip.from(state, {duration: 0.8, ease: "elastic.out(1, 0.5)"});
-        //ease: "power2.inOut"
 
         //If element is the main page, change the color of the footer to blue, if the element is of the project page, change the color to red, if the element is of the experience page, change the color to green
 
@@ -90,7 +93,6 @@ const Navbar = () => {
             gsap.to(".textfootercolor", {color: "#e0e0e0"});
         } else if (e === links.current[2]) {
             gsap.to(".colorchanger", {backgroundColor: "#c1c8e4"});
-
             gsap.to(".navbar", {"--border-color": "#8860d0"});
             gsap.to(".navbar__slider", {backgroundColor: "#8860d0"});
             gsap.to(".textfootercolor", {color: "#000000"});
