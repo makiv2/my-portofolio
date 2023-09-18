@@ -25,7 +25,7 @@ a {
 .global__cover {
     position: fixed;
     width: 100%;
-    height: 5rem;
+    height: 5.3rem;
     z-index: 10;
     background: #0b0c10;
 }
@@ -33,7 +33,7 @@ a {
 .global__cover__blur {
     position: fixed;
     width: 100%;
-    top: 4.9rem;
+    top: 5.2rem;
     height: 1rem;
     z-index: 11;
     background: linear-gradient(to bottom, #0b0c10, transparent 1rem);
@@ -52,6 +52,20 @@ a {
     background-size: cover;
     background-position: center center;
     z-index: -99;
+}
+
+/* Custom Scroll */
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00ADB5;
 }
 
 /* Utility classes */
