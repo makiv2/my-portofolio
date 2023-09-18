@@ -87,7 +87,14 @@ a {
 /* @media (min-width: 1728px) {} */
 
 /* 5xl */
-/* @media (min-width: 1920px) {} */
+ @media (min-width: 1920px) {
+     .global__cover {
+         display: none;
+     }
+     .global__cover__blur {
+         display: none;
+     }
+ }
 
 /* 6xl */
 /* @media (min-width: 2500px) {} */

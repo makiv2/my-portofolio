@@ -112,12 +112,16 @@
 /* 5xl */
 @media (min-width: 1920px) {
     .navbar__ul {
-        font-size: 2rem;
-        gap: 12rem;
+        font-size: 1.9rem;
+        margin-top: 1.5rem;
+        margin-bottom: .75rem;
     }
 
     .navbar::after {
-        width: 50rem;
+        width: 40rem;
+    }
+    .navbar__slider {
+        height: .34rem;
     }
 }
 
