@@ -1,5 +1,3 @@
-import { motion as m } from "framer-motion";
-import GlassCard from "../../components/GlassCard";
 import Head from "next/head";
 
 
@@ -24,6 +22,48 @@ function StaticProjects() {
                     <div className={"project__bar"}></div>
                 </h1>
 
+                <h2 className={"project__h2"}>Active & Under Development</h2>
+
+                <ul className={"project__ul"}>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
+                                Communication
+                                Technology and Digital Security.</p>
+                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
+                                Communication
+                                Technology and Digital Security.</p>
+                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <h2 className={"project__h2"}>Archived || Incomplete</h2>
+                <ul className={"project__ul"}>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
+                                Communication
+                                Technology and Digital Security.</p>
+                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
+                                Communication
+                                Technology and Digital Security.</p>
+                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                        </div>
+                    </li>
+                </ul>
+                <div className={"project__bottom"}></div>
             </main>
         </>
     );
