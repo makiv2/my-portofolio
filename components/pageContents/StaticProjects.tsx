@@ -27,19 +27,18 @@ function StaticProjects() {
                 <ul className={"project__ul"}>
                     <li>
                         <div className={"project__card"}>
-                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
-                                Communication
-                                Technology and Digital Security.</p>
-                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                            <p className={"project__card__header"}><strong>PRVault</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
                         </div>
                     </li>
                     <li>
                         <div className={"project__card"}>
-                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
-                                Communication
-                                Technology and Digital Security.</p>
-                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                            <p className={"project__card__header"}><strong>Portofolio Website</strong></p>
+                            <p className={"project__card__p"}>My personal portfolio website where you can check on my
+                                recent projects, contact me, and get to know me a little better.</p>
                         </div>
+
                     </li>
 
                 </ul>
@@ -48,18 +47,59 @@ function StaticProjects() {
                 <ul className={"project__ul"}>
                     <li>
                         <div className={"project__card"}>
-                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
-                                Communication
-                                Technology and Digital Security.</p>
-                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                            <p className={"project__card__header"}><strong>HYRE Widget Extension</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
                         </div>
                     </li>
                     <li>
                         <div className={"project__card"}>
-                            <p className={"project__card__p"}>I am currently in my final year pursuing an MSc in
-                                Communication
-                                Technology and Digital Security.</p>
-                            <p className={"project__card__footer"}><strong>NTNU</strong></p>
+                            <p className={"project__card__header"}><strong>TTM4133 Network Simulator</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>Shoe Bot</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>NEAT AI for chess</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>TTM4195 Smart Contract</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>Ice Breaker Chat App</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>Arbitrage Betting</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={"project__card"}>
+                            <p className={"project__card__header"}><strong>MineSweeper</strong></p>
+                            <p className={"project__card__p"}>Under development gym application made to elevate workout
+                                experience and unite a community of fitness enthusiasts.</p>
                         </div>
                     </li>
                 </ul>
